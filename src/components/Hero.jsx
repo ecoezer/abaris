@@ -7,9 +7,9 @@ function Hero() {
       {/* Hero Section */}
       <div className="relative min-h-screen bg-abaris-cyan overflow-hidden">
         <div className="w-full h-full px-4 md:px-8 pt-24 md:pt-32 pb-8 md:pb-0">
-          <div className="grid gap-0 h-full md:items-stretch grid-cols-1 lg:grid-cols-12">
+          <div className="flex gap-0 h-full items-stretch">
             {/* Left side - Image */}
-            <div className="lg:col-span-3 relative w-full flex flex-col items-start overflow-hidden -ml-4 md:-ml-8 lg:-ml-8">
+            <div className="relative w-1/3 flex flex-col items-start overflow-hidden -ml-4 md:-ml-8">
               {/* Image */}
               <div className="relative z-10 w-full h-64 sm:h-80 md:h-96 lg:h-full flex items-center justify-start">
                 <img
@@ -21,8 +21,8 @@ function Hero() {
             </div>
 
             {/* Right side - Content */}
-            <div className="lg:col-span-9 pt-8 md:pt-8 px-4 md:px-8 flex flex-col justify-center lg:items-end">
-              <div className="lg:text-right lg:max-w-2xl">
+            <div className="w-2/3 pt-8 md:pt-8 px-4 md:px-8 flex flex-col justify-center items-end">
+              <div className="text-right max-w-xl">
                 <h1 className="text-white font-light mb-4 md:mb-6">
                   <div className="text-4xl sm:text-6xl md:text-7xl lg:text-[120px] leading-none tracking-wide">Abaris</div>
                   <div className="text-lg sm:text-2xl md:text-2xl lg:text-[32px] tracking-[0.3em] mt-2">DÜSSELDORF</div>
