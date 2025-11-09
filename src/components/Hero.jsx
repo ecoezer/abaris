@@ -19,20 +19,18 @@ function Hero() {
               />
             </div>
 
-            {/* Text Overlay */}
-            <div className="absolute top-16 left-0 z-20 max-w-3xl px-8">
-              <p className="text-white text-lg font-light">
-                Wir begrüßen Sie auf den Seiten von Abaris Reinigungsservice
-              </p>
-            </div>
           </div>
 
           {/* Right side - Content */}
           <div className="pt-8 px-8 flex flex-col justify-start">
-            <h1 className="text-white font-light mb-20">
+            <h1 className="text-white font-light mb-6">
               <div className="text-[120px] leading-none tracking-wide">Abaris</div>
               <div className="text-[32px] tracking-[0.3em] mt-2">DÜSSELDORF</div>
             </h1>
+
+            <p className="text-white text-lg mb-16 font-light">
+              Wir begrüßen Sie auf den Seiten von Abaris Reinigungsservice
+            </p>
 
             {/* Feature Cards */}
             <div className="grid grid-cols-3 gap-8">
