@@ -25,7 +25,28 @@ function Hero() {
               <div className="text-left w-full">
                 <h1 className="text-white font-light mb-4 md:mb-6">
                   <div className="relative text-4xl sm:text-6xl md:text-7xl lg:text-[120px] leading-none tracking-wide inline-block">
-                    Abaris
+                    Abar
+                    <span className="relative inline-block">
+                      i
+                      <svg
+                        className="absolute hidden md:block lg:block"
+                        style={{
+                          top: '-50%',
+                          left: '50%',
+                          transform: 'translateX(-50%)',
+                          width: '1.2em',
+                          height: '1.2em'
+                        }}
+                        viewBox="0 0 100 100"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <polygon
+                          points="50,5 61,35 93,35 68,58 79,88 50,65 21,88 32,58 7,35 39,35"
+                          fill="#FF8C00"
+                        />
+                      </svg>
+                    </span>
+                    s
                   </div>
                   <div className="text-lg sm:text-2xl md:text-2xl lg:text-[32px] tracking-[0.3em] mt-2 font-helvetica">DÜSSELDORF</div>
                 </h1>
