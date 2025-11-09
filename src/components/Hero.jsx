@@ -45,7 +45,7 @@ function Hero() {
                 </h1>
 
                 <p className="text-white text-sm sm:text-base md:text-lg mb-3 md:mb-4 lg:mb-2 font-light">
-                  Wir begrüßen Sie auf den Seiten von Abarıs Reinigungsservice
+                  Abaris steht für Perfektion bis ins Detail –<br />für Sauberkeit, die Vertrauen schafft<br />und Eleganz, die bleibt.
                 </p>
               </div>
 
