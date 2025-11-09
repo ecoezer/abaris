@@ -15,10 +15,10 @@ function Hero() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-8 pt-32 pb-16">
-        <div className="grid grid-cols-2 gap-16 items-start">
+      <div className="w-full px-0 pt-32 pb-16">
+        <div className="grid grid-cols-2 gap-0 items-start">
           {/* Left side - Image */}
-          <div className="relative -ml-20">
+          <div className="relative ml-0 w-full">
             <div className="relative z-10">
               <img
                 src="/abaris-new-tinified-1-871x1024 (1).png"
@@ -38,7 +38,7 @@ function Hero() {
           </div>
 
           {/* Right side - Content */}
-          <div className="pt-8">
+          <div className="pt-8 px-8">
             <h1 className="text-white font-light mb-6">
               <div className="text-[120px] leading-none tracking-wide">Abaris</div>
               <div className="text-[32px] tracking-[0.3em] mt-2">GEBÄUDEREINIGUNG</div>
