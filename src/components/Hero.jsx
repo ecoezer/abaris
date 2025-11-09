@@ -28,7 +28,7 @@ function Hero() {
                   <div className="text-lg sm:text-2xl md:text-2xl lg:text-[32px] tracking-[0.3em] mt-2">DÜSSELDORF</div>
                 </h1>
 
-                <p className="text-white text-sm sm:text-base md:text-lg mb-8 md:mb-16 font-light">
+                <p className="text-white text-sm sm:text-base md:text-lg mb-8 md:mb-10 lg:mb-6 font-light">
                   Wir begrüßen Sie auf den Seiten von Abaris Reinigungsservice
                 </p>
               </div>
@@ -37,7 +37,7 @@ function Hero() {
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-8 w-full pb-8 md:pb-0">
                 {/* Qualität */}
                 <div className="flex flex-col items-center text-center group h-full">
-                  <div className="mb-2 md:mb-2 lg:mb-8 flex items-center justify-center w-10 md:w-10 lg:w-16 h-10 md:h-10 lg:h-16 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
+                  <div className="mb-2 md:mb-2 lg:mb-4 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
                     <StarIcon />
                   </div>
                   <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-4 transition-all duration-300 group-hover:scale-105">Qualität</h3>
@@ -48,7 +48,7 @@ function Hero() {
 
                 {/* Service */}
                 <div className="flex flex-col items-center text-center group h-full">
-                  <div className="mb-2 md:mb-2 lg:mb-8 flex items-center justify-center w-10 md:w-10 lg:w-16 h-10 md:h-10 lg:h-16 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
+                  <div className="mb-2 md:mb-2 lg:mb-4 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
                     <StarIcon />
                   </div>
                   <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-4 transition-all duration-300 group-hover:scale-105">Service</h3>
@@ -59,7 +59,7 @@ function Hero() {
 
                 {/* Nachhaltigkeit */}
                 <div className="flex flex-col items-center text-center group h-full">
-                  <div className="mb-2 md:mb-2 lg:mb-8 flex items-center justify-center w-10 md:w-10 lg:w-16 h-10 md:h-10 lg:h-16 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
+                  <div className="mb-2 md:mb-2 lg:mb-4 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
                     <StarIcon />
                   </div>
                   <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-4 transition-all duration-300 group-hover:scale-105">Nachhaltigkeit</h3>
