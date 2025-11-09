@@ -28,8 +28,10 @@ function Hero() {
                     Abar
                     <span className="relative inline-block">
                       ı
-                      <GoNorthStar
-                        className="absolute hidden md:block lg:block text-orange-500"
+                      <img
+                        src="/star.png"
+                        alt=""
+                        className="absolute hidden md:block lg:block"
                         style={{
                           top: '-25%',
                           left: '50%',
