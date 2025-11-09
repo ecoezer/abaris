@@ -6,12 +6,12 @@ function Hero() {
     <div className="relative bg-white">
       {/* Hero Section */}
       <div className="relative bg-abaris-cyan overflow-hidden">
-        <div className="w-full h-full px-4 md:px-8 pt-20 md:pt-24 pb-0">
+        <div className="w-full px-4 md:px-8 pt-20 md:pt-24" style={{minHeight: 'calc(100vh - 80px)'}}>
           <div className="flex gap-0 h-full items-stretch">
             {/* Left side - Image */}
             <div className="relative w-1/3 flex flex-col items-start overflow-visible -ml-4 md:-ml-8">
               {/* Image */}
-              <div className="relative z-10 w-full h-64 sm:h-80 md:h-96 lg:h-[calc(100vh-80px)] flex items-end justify-start">
+              <div className="relative z-10 w-full h-full flex items-end justify-start">
                 <img
                   src="/abaris-new-tinified-1-871x1024 (1).png"
                   alt="Abaris Cleaning Professional"
