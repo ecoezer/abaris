@@ -30,7 +30,7 @@ function Contact() {
   return (
     <div id="contact" className="bg-white py-16 md:py-24">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           {/* Contact Info */}
           <div className="md:order-1">
             <div className="uppercase text-abaris-cyan text-xs sm:text-sm tracking-widest font-light mb-4">
@@ -104,7 +104,7 @@ function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-gray-50 p-8 md:p-10 rounded-lg border border-gray-100 md:order-2">
+          <div className="bg-gray-50 p-8 md:p-10 rounded-lg border border-gray-100 md:order-2 md:col-span-2">
             <h3 className="text-2xl font-light text-gray-900 mb-6">Kontaktformular</h3>
 
             {submitted ? (
