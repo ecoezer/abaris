@@ -1,6 +1,5 @@
 import React from 'react'
 import { GoNorthStar } from 'react-icons/go'
-import { IoStarOutline } from 'react-icons/io5'
 
 function Hero() {
   return (
@@ -29,7 +28,7 @@ function Hero() {
                     Abar
                     <span className="relative inline-block">
                       ı
-                      <IoStarOutline className="absolute hidden md:block lg:block text-white" style={{ top: '-15%', left: '50%', transform: 'translateX(-50%)', fontSize: '0.789em' }} />
+                      <img src="/star.png" alt="" className="absolute hidden md:block lg:block" style={{ top: '-15%', left: '50%', transform: 'translateX(-50%)', width: '0.789em', height: '0.789em', objectFit: 'contain' }} />
                     </span>
                     s
                   </div>
