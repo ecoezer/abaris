@@ -24,7 +24,7 @@ function Hero() {
             <div className="w-2/3 pt-1 md:pt-2 lg:pt-0 px-2 md:px-3 flex flex-col justify-start items-start">
               <div className="text-left w-full">
                 <h1 className="text-white font-light mb-2 md:mb-2">
-                  <div className="relative text-4xl sm:text-6xl md:text-7xl lg:text-[120px] leading-none tracking-wide inline-block">
+                  <div className="relative text-5xl sm:text-7xl md:text-8xl lg:text-[150px] leading-none tracking-wide inline-block">
                     Abar
                     <span className="relative inline-block">
                       ı
@@ -41,7 +41,7 @@ function Hero() {
                     </span>
                     s
                   </div>
-                  <div className="text-lg sm:text-2xl md:text-2xl lg:text-[32px] tracking-[0.3em] mt-1 font-helvetica">DÜSSELDORF</div>
+                  <div className="text-xl sm:text-3xl md:text-3xl lg:text-[40px] tracking-[0.3em] mt-1 font-helvetica">DÜSSELDORF</div>
                 </h1>
 
                 <p className="text-white text-sm sm:text-base md:text-lg mb-3 md:mb-4 lg:mb-2 font-light">
