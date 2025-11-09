@@ -8,6 +8,7 @@ function Contact() {
     service: '',
     message: ''
   })
+  const [termsAccepted, setTermsAccepted] = useState(false)
   const [submitted, setSubmitted] = useState(false)
 
   const handleChange = (e) => {
@@ -20,9 +21,11 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    if (!termsAccepted) return
     setSubmitted(true)
     setTimeout(() => {
       setFormData({ name: '', email: '', phone: '', service: '', message: '' })
+      setTermsAccepted(false)
       setSubmitted(false)
     }, 3000)
   }
@@ -184,9 +187,27 @@ function Contact() {
                   ></textarea>
                 </div>
 
+                <div className="flex items-start mt-6">
+                  <input
+                    type="checkbox"
+                    id="terms"
+                    checked={termsAccepted}
+                    onChange={(e) => setTermsAccepted(e.target.checked)}
+                    className="mt-1 h-4 w-4 rounded border-gray-300 text-abaris-cyan focus:ring-abaris-cyan cursor-pointer"
+                  />
+                  <label htmlFor="terms" className="ml-3 text-sm font-light text-gray-700 cursor-pointer">
+                    Ich bin damit einverstanden, dass meine Nachricht an das Team von Abaris weitergeleitet wird. Informationen zum Datenschutz finden Sie in unserer Datenschutzerklärung.
+                  </label>
+                </div>
+
                 <button
                   type="submit"
-                  className="w-full bg-abaris-cyan text-white font-light py-3 rounded-lg hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105"
+                  disabled={!termsAccepted}
+                  className={`w-full font-light py-3 rounded-lg transition-all duration-300 transform ${
+                    termsAccepted
+                      ? 'bg-abaris-cyan text-white hover:bg-opacity-90 hover:scale-105 cursor-pointer'
+                      : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                  }`}
                 >
                   Nachricht senden
                 </button>
