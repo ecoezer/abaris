@@ -21,7 +21,7 @@ function Hero() {
             </div>
 
             {/* Right side - Content */}
-            <div className="w-2/3 pt-2 md:pt-4 px-4 md:px-8 flex flex-col justify-center items-start">
+            <div className="w-2/3 pt-2 md:pt-4 lg:pt-0 px-4 md:px-8 flex flex-col justify-start lg:justify-start items-start lg:pt-12">
               <div className="text-left w-full">
                 <h1 className="text-white font-light mb-4 md:mb-6">
                   <div className="text-4xl sm:text-6xl md:text-7xl lg:text-[120px] leading-none tracking-wide">Abaris</div>
