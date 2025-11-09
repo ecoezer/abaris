@@ -28,7 +28,9 @@ function Hero() {
                     Abar
                     <span className="relative inline-block">
                       i
-                      <svg
+                      <img
+                        src="/star_no_bg.png"
+                        alt="Star"
                         className="absolute hidden md:block lg:block"
                         style={{
                           top: '-40%',
@@ -37,14 +39,7 @@ function Hero() {
                           width: '0.5em',
                           height: '0.5em'
                         }}
-                        viewBox="0 0 100 100"
-                        fill="none"
-                      >
-                        <line x1="50" y1="10" x2="50" y2="90" stroke="#FF9500" strokeWidth="4" strokeLinecap="round" />
-                        <line x1="10" y1="50" x2="90" y2="50" stroke="#FF9500" strokeWidth="4" strokeLinecap="round" />
-                        <line x1="20" y1="20" x2="80" y2="80" stroke="#FF9500" strokeWidth="4" strokeLinecap="round" />
-                        <line x1="80" y1="20" x2="20" y2="80" stroke="#FF9500" strokeWidth="4" strokeLinecap="round" />
-                      </svg>
+                      />
                     </span>
                     s
                   </div>
