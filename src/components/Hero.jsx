@@ -36,7 +36,7 @@ function Hero() {
             <div className="grid grid-cols-3 gap-8">
               {/* Qualität */}
               <div className="flex flex-col items-center text-center group">
-                <div className="mb-8 flex items-center justify-center w-24 h-24 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
+                <div className="mb-8 flex items-center justify-center w-16 h-16 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
                   <StarIcon />
                 </div>
                 <h3 className="text-white text-2xl font-light mb-4 transition-all duration-300 group-hover:scale-105">Qualität</h3>
@@ -47,7 +47,7 @@ function Hero() {
 
               {/* Service */}
               <div className="flex flex-col items-center text-center group">
-                <div className="mb-8 flex items-center justify-center w-24 h-24 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
+                <div className="mb-8 flex items-center justify-center w-16 h-16 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
                   <StarIcon />
                 </div>
                 <h3 className="text-white text-2xl font-light mb-4 transition-all duration-300 group-hover:scale-105">Service</h3>
@@ -58,7 +58,7 @@ function Hero() {
 
               {/* Nachhaltigkeit */}
               <div className="flex flex-col items-center text-center group">
-                <div className="mb-8 flex items-center justify-center w-24 h-24 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
+                <div className="mb-8 flex items-center justify-center w-16 h-16 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
                   <StarIcon />
                 </div>
                 <h3 className="text-white text-2xl font-light mb-4 transition-all duration-300 group-hover:scale-105">Nachhaltigkeit</h3>
