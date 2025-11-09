@@ -1,6 +1,5 @@
 import React from 'react'
 import { GoNorthStar } from 'react-icons/go'
-import StarIcon from './StarIcon'
 
 function Hero() {
   return (
@@ -29,9 +28,7 @@ function Hero() {
                     Abar
                     <span className="relative inline-block">
                       ı
-                      <div className="absolute hidden md:block lg:block" style={{ top: '-15%', left: '50%', transform: 'translateX(-50%)', width: '0.789em', height: '0.789em' }}>
-                        <StarIcon />
-                      </div>
+                      <img src="/star copy.png" alt="star" className="absolute hidden md:block lg:block" style={{ top: '-15%', left: '50%', transform: 'translateX(-50%)', width: '0.986em', height: '0.986em' }} />
                     </span>
                     s
                   </div>
