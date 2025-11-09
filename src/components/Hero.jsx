@@ -28,14 +28,6 @@ function Hero() {
               />
             </div>
 
-            {/* Decorative star */}
-            <div className="absolute bottom-32 right-0 transform translate-x-8">
-              <div className="text-white opacity-30">
-                <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
-                  <path d="M30 0 L32 28 L60 30 L32 32 L30 60 L28 32 L0 30 L28 28 Z" fill="currentColor"/>
-                </svg>
-              </div>
-            </div>
           </div>
 
           {/* Right side - Content */}
