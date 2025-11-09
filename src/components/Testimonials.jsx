@@ -29,7 +29,8 @@ function Testimonials() {
   ]
 
   return (
-    <div id="testimonials" className="bg-gray-50 py-16 md:py-24">
+    <>
+    <div id="testimonials" className="bg-gray-50 py-16 md:py-24 border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="text-center mb-16 md:mb-20">
           <div className="uppercase text-abaris-cyan text-xs sm:text-sm tracking-widest font-light mb-4">
@@ -66,6 +67,7 @@ function Testimonials() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

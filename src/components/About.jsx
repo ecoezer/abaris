@@ -3,7 +3,8 @@ import StarIcon from './StarIcon'
 
 function About() {
   return (
-    <div id="about" className="bg-white py-8 md:py-12">
+    <>
+    <div id="about" className="bg-white py-8 md:py-12 border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
           <div className="w-full flex justify-center">
@@ -40,6 +41,7 @@ function About() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
