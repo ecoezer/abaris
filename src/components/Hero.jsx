@@ -69,9 +69,9 @@ und Eleganz, die bleibt.
                   <div className="mb-1 md:mb-1 lg:mb-2 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
                     <GoNorthStar className="text-white" size={13} />
                   </div>
-                  <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-2 transition-all duration-300 group-hover:scale-105">Service</h3>
+                  <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-2 transition-all duration-300 group-hover:scale-105">Abaris Service – Sauberkeit mit System</h3>
                   <p className="text-white font-light text-xs md:text-xs lg:text-sm leading-relaxed opacity-90">
-                    Mit umfassenden Serviceleistungen von der Grundreinigung bis zur Unterhaltsreinigung und Hauswirtschaft sind wir der passende Partner für Arztpraxen, Büros, Kitas u.a.
+                    Von Praxen bis Büros: Wir reinigen mit Präzision, Stil und Vertrauen.
                   </p>
                 </div>
 
@@ -82,7 +82,7 @@ und Eleganz, die bleibt.
                   </div>
                   <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-2 transition-all duration-300 group-hover:scale-105">Nachhaltigkeit</h3>
                   <p className="text-white font-light text-xs md:text-xs lg:text-sm leading-relaxed opacity-90">
-                    Der behutsame Umgang mit Ihrer Einrichtung ist für uns ebenso selbstverständlich wie die nachhaltige Verwendung der Reinigungsmittel.
+                    Mit umfassenden Serviceleistungen von der Grundreinigung bis zur Unterhaltsreinigung und Hauswirtschaft sind wir der passende Partner für Arztpraxen, Büros, Kitas u.a.
                   </p>
                 </div>
               </div>
