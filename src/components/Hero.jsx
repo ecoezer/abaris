@@ -15,15 +15,15 @@ function Hero() {
         </div>
       </div>
 
-      <div className="w-full px-0 pt-32 pb-16">
+      <div className="w-full px-0 pt-32 pb-0">
         <div className="grid grid-cols-2 gap-0 items-start">
           {/* Left side - Image */}
-          <div className="relative ml-0 w-full">
-            <div className="relative z-10">
+          <div className="relative ml-0 w-full h-full">
+            <div className="relative z-10 h-full">
               <img
                 src="/abaris-new-tinified-1-871x1024 (1).png"
                 alt="Abaris Cleaning Professional"
-                className="w-full h-auto object-contain"
+                className="w-full h-full object-cover"
               />
             </div>
 
@@ -55,7 +55,7 @@ function Hero() {
       </div>
 
       {/* Services Section */}
-      <div className="bg-white pt-32 pb-20">
+      <div className="bg-white pt-20 pb-20">
         <div className="max-w-7xl mx-auto px-8">
           <div className="uppercase text-gray-600 text-sm tracking-widest font-light mb-12">
             S E R V I C E S
