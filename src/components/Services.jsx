@@ -1,80 +1,87 @@
-import React from 'react'
-import StarIcon from './StarIcon'
+import React, { useState } from 'react'
+import { IoChevronUp } from 'react-icons/io5'
 
 function Services() {
+  const [expandedService, setExpandedService] = useState(0)
+
   const services = [
     {
       title: 'Büroreinigung',
-      description: 'Professionelle Reinigung von Büros und Arbeitsbereichen für eine saubere und produktive Arbeitsumgebung',
-      features: ['Täglich verfügbar', 'Flexible Zeiten', 'Umweltfreundlich']
+      description: 'Wir garantieren eine regelmäßige und bedarfsgerechte Reinigung Ihrer Büro- und Sozialräume nach einem individuell erstellten Reinigungsplan. Unser Team reinigt effektiv Ihre Sanitärbereiche und desinfiziert Türgriffe u.a. standardmäßig.\n\nEgal welchen Boden Sie haben, Teppich, Fliesen, Stein oder Parkett – Für uns kein Problem! Wir übernehmen die fachgerechte Reinigung.'
     },
     {
       title: 'Praxisreinigung',
-      description: 'Spezialisierte Reinigung für Arztpraxen, Zahnarztpraxen und medizinische Einrichtungen mit höchsten Hygienestandards',
-      features: ['Hygienezertifiziert', 'Desinfektionen', 'Nach DIN 1964']
+      description: 'Spezialisierte Reinigung für medizinische Praxen mit höchsten Hygienestandards. Wir kümmern uns um alle Bereiche Ihrer Praxis mit besonderer Aufmerksamkeit auf Sauberkeitserfordernisse im Gesundheitswesen.'
     },
     {
       title: 'Fensterreinigung',
-      description: 'Gründliche Fenster- und Glasreinigung für innen und außen mit professionellen Mitteln',
-      features: ['Alle Größen', 'Sicherheitsausrüstung', 'Schnell & gründlich']
+      description: 'Professionelle Fensterreinigung für Ihr Büro oder Ihre Einrichtung. Mit modernen Techniken und gründlicher Arbeit sorgen wir für strahlend saubere Fenster und maximale Helligkeit in Ihren Räumen.'
     },
     {
       title: 'Grundreinigung',
-      description: 'Intensive Reinigung von Grund auf für Neubauten, Umzüge oder Sanierungen',
-      features: ['Vollständig', 'Gründlich', 'Zertifiziert']
+      description: 'Intensive Grundreinigung von Grund auf. Wir kümmern uns um jeden Winkel und jede Oberfläche, um Ihre Räume wieder in glänzenden Zustand zu versetzen. Ideal für Neubezüge oder intensive Auffrischungen.'
     },
     {
-      title: 'Unterhaltsreinigung',
-      description: 'Regelmäßige Reinigung zur Aufrechterhaltung von Sauberkeit und Hygiene',
-      features: ['Regelmäßig', 'Zuverlässig', 'Wirtschaftlich']
+      title: 'Haushaltsreinigung',
+      description: 'Zuverlässige und gründliche Reinigung Ihres Privathaushalt. Von Böden bis zu Oberflächen – wir sorgen für ein sauberes und angenehmes Zuhause, das Sie genießen können.'
     },
     {
-      title: 'Hauswirtschaftliche Services',
-      description: 'Umfassende Hauswirtschaftsleistungen für Privatpersonen und Unternehmen',
-      features: ['Flexibel einsetzbar', 'Diskret', 'Sorgfältig']
+      title: 'Reinigungsservice COVID-19',
+      description: 'Spezialisierte Desinfektionsreinigung mit modernen Verfahren. Wir bieten eine gründliche Reinigung und Desinfektion Ihrer Räume nach den aktuellen Hygienestandards und Anforderungen.'
     }
   ]
 
   return (
-    <div className="bg-gray-50 py-16 md:py-24">
+    <div className="bg-white pt-12 md:pt-20 pb-12 md:pb-20">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
-        <div className="text-center mb-16 md:mb-20">
-          <div className="uppercase text-abaris-cyan text-xs sm:text-sm tracking-widest font-light mb-4">
-            U N S E R E L E I S T U N G E N
-          </div>
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-light text-gray-900 mb-6">
-            Umfassende Reinigungslösungen
-          </h2>
-          <p className="text-gray-600 font-light max-w-2xl mx-auto">
-            Von der Büroreinigung bis zur Hauswirtschaft - wir bieten maßgeschneiderte Lösungen für Ihre individuellen Anforderungen
-          </p>
+        <div className="uppercase text-gray-600 text-xs sm:text-sm tracking-widest font-light mb-8 md:mb-12">
+          S E R V I C E S
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => (
-            <div
-              key={index}
-              className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100"
-            >
-              <div className="flex items-center justify-center w-14 h-14 rounded-full bg-abaris-cyan bg-opacity-10 mb-6">
-                <StarIcon />
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20">
+          <div>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-gray-900 mb-6">
+              Das bieten wir Ihnen
+            </h2>
+            <p className="text-gray-600 font-light mb-4 text-sm md:text-base">Abarıs Reinigungsservice</p>
+            <p className="text-gray-700 leading-relaxed font-light text-sm md:text-base mb-4">
+              Wir schreiben SERVICE groß! Wir garantieren eine Qualität mit dem Fokus auf individuelle Lösungen. Ihre Wünsche und Vorgaben setzen wir flexibel und termingerecht um.
+            </p>
+            <p className="text-gray-700 leading-relaxed font-light text-sm md:text-base mb-4">
+              Dabei arbeiten wir als motiviertes Team gründlich und nachhaltig. Umweltschutz und Zuverlässigkeit sind für uns ebenso wichtig wie Diskretion.
+            </p>
+            <p className="text-gray-700 leading-relaxed font-light text-sm md:text-base">
+              Gönnen Sie sich eine Auszeit! Mit dem Abaris Reinigungsservice.
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            {services.map((service, index) => (
+              <div key={index}>
+                <button
+                  onClick={() => setExpandedService(expandedService === index ? -1 : index)}
+                  className="w-full flex items-center justify-between pb-4 md:pb-6 border-b border-gray-200 hover:border-abaris-cyan transition-colors group"
+                >
+                  <h3 className="text-lg md:text-xl font-light text-gray-900 text-left">
+                    {service.title}
+                  </h3>
+                  <IoChevronUp
+                    size={24}
+                    className={`text-abaris-cyan flex-shrink-0 transition-transform duration-300 ${
+                      expandedService === index ? 'rotate-180' : 'rotate-0'
+                    }`}
+                  />
+                </button>
+                {expandedService === index && (
+                  <div className="py-4 md:py-6 border-b border-gray-200">
+                    <p className="text-gray-700 leading-relaxed font-light text-sm md:text-base whitespace-pre-line">
+                      {service.description}
+                    </p>
+                  </div>
+                )}
               </div>
-              <h3 className="text-xl font-light text-gray-900 mb-3">
-                {service.title}
-              </h3>
-              <p className="text-gray-600 font-light text-sm mb-6 leading-relaxed">
-                {service.description}
-              </p>
-              <ul className="space-y-2">
-                {service.features.map((feature, idx) => (
-                  <li key={idx} className="text-sm text-gray-700 font-light flex items-center">
-                    <span className="w-2 h-2 bg-abaris-cyan rounded-full mr-3"></span>
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>
