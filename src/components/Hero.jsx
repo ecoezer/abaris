@@ -35,33 +35,33 @@ function Hero() {
             {/* Feature Cards */}
             <div className="grid grid-cols-3 gap-8">
               {/* Qualität */}
-              <div className="flex flex-col items-center text-center">
-                <div className="mb-6 flex items-center justify-center w-16 h-16 border-2 border-white">
+              <div className="flex flex-col items-center text-center group">
+                <div className="mb-8 flex items-center justify-center w-24 h-24 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
                   <StarIcon />
                 </div>
-                <h3 className="text-white text-2xl font-light mb-4">Qualität</h3>
+                <h3 className="text-white text-2xl font-light mb-4 transition-all duration-300 group-hover:scale-105">Qualität</h3>
                 <p className="text-white font-light text-sm leading-relaxed opacity-90">
                   Wir bieten Ihnen hohe Qualität und faire Preise für einen individuell angepassten Service durch genaue Analyse Ihrer Bedürfnisse.
                 </p>
               </div>
 
               {/* Service */}
-              <div className="flex flex-col items-center text-center">
-                <div className="mb-6 flex items-center justify-center w-16 h-16 border-2 border-white">
+              <div className="flex flex-col items-center text-center group">
+                <div className="mb-8 flex items-center justify-center w-24 h-24 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
                   <StarIcon />
                 </div>
-                <h3 className="text-white text-2xl font-light mb-4">Service</h3>
+                <h3 className="text-white text-2xl font-light mb-4 transition-all duration-300 group-hover:scale-105">Service</h3>
                 <p className="text-white font-light text-sm leading-relaxed opacity-90">
                   Mit umfassenden Serviceleistungen von der Grundreinigung bis zur Unterhaltsreinigung und Hauswirtschaft sind wir der passende Partner für Arztpraxen, Büros, Kitas u.a.
                 </p>
               </div>
 
               {/* Nachhaltigkeit */}
-              <div className="flex flex-col items-center text-center">
-                <div className="mb-6 flex items-center justify-center w-16 h-16 border-2 border-white">
+              <div className="flex flex-col items-center text-center group">
+                <div className="mb-8 flex items-center justify-center w-24 h-24 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
                   <StarIcon />
                 </div>
-                <h3 className="text-white text-2xl font-light mb-4">Nachhaltigkeit</h3>
+                <h3 className="text-white text-2xl font-light mb-4 transition-all duration-300 group-hover:scale-105">Nachhaltigkeit</h3>
                 <p className="text-white font-light text-sm leading-relaxed opacity-90">
                   Der behutsame Umgang mit Ihrer Einrichtung ist für uns ebenso selbstverständlich wie die nachhaltige Verwendung der Reinigungsmittel.
                 </p>
