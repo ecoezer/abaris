@@ -32,7 +32,7 @@ function Services() {
   ]
 
   return (
-    <div className="bg-white pt-12 md:pt-20 pb-12 md:pb-20">
+    <div id="services" className="bg-white pt-12 md:pt-20 pb-12 md:pb-20">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="uppercase text-gray-600 text-xs sm:text-sm tracking-widest font-light mb-8 md:mb-12">
           S E R V I C E S

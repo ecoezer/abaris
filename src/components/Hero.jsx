@@ -3,7 +3,7 @@ import { GoNorthStar } from 'react-icons/go'
 
 function Hero() {
   return (
-    <div className="relative bg-white">
+    <div id="hero" className="relative bg-white">
       {/* Hero Section */}
       <div className="relative bg-abaris-cyan overflow-hidden">
         <div className="w-full px-4 md:px-8 pt-20 md:pt-24 pb-0" style={{minHeight: 'calc(100vh - 80px)', height: 'calc(100vh - 80px)'}}>
