@@ -40,44 +40,49 @@ function Header() {
           </button>
 
           <nav className="hidden md:flex items-center gap-8 lg:gap-12">
-            <button onClick={() => scrollToSection('hero')} className="text-white text-sm lg:text-base transition-all duration-300 hover:opacity-60 hover:scale-105 relative group bg-none border-none cursor-pointer">
-              Home
+            <button onClick={() => scrollToSection('hero')} className="text-white text-sm lg:text-base transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer py-1">
+              <span className="relative z-10">Home</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded"></span>
             </button>
-            <button onClick={() => scrollToSection('services')} className="text-white text-sm lg:text-base transition-all duration-300 hover:opacity-60 hover:scale-105 relative group bg-none border-none cursor-pointer">
-              Services
+            <button onClick={() => scrollToSection('services')} className="text-white text-sm lg:text-base transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer py-1">
+              <span className="relative z-10">Services</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded"></span>
             </button>
-            <button onClick={() => scrollToSection('testimonials')} className="text-white text-sm lg:text-base transition-all duration-300 hover:opacity-60 hover:scale-105 relative group bg-none border-none cursor-pointer">
-              Testimonials
+            <button onClick={() => scrollToSection('testimonials')} className="text-white text-sm lg:text-base transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer py-1">
+              <span className="relative z-10">Testimonials</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded"></span>
             </button>
-            <button onClick={() => scrollToSection('about')} className="text-white text-sm lg:text-base transition-all duration-300 hover:opacity-60 hover:scale-105 border-b-2 border-white pb-1 relative group bg-none border-none cursor-pointer">
-              Über uns
+            <button onClick={() => scrollToSection('about')} className="text-white text-sm lg:text-base transition-all duration-300 hover:scale-105 border-b-2 border-white pb-1 relative group bg-none border-none cursor-pointer py-1">
+              <span className="relative z-10">Über uns</span>
               <span className="absolute bottom-0 left-0 w-full h-0.5 bg-white"></span>
+              <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded"></span>
             </button>
-            <button onClick={() => scrollToSection('contact')} className="text-white text-sm lg:text-base transition-all duration-300 hover:opacity-60 hover:scale-105 relative group bg-none border-none cursor-pointer">
-              Kontakt
+            <button onClick={() => scrollToSection('contact')} className="text-white text-sm lg:text-base transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer py-1">
+              <span className="relative z-10">Kontakt</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded"></span>
             </button>
           </nav>
         </div>
 
         {isOpen && (
           <nav className="md:hidden mt-4 pb-4 space-y-3">
-            <button onClick={() => scrollToSection('hero')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:opacity-60 bg-none border-none cursor-pointer">
+            <button onClick={() => scrollToSection('hero')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:translate-x-2 bg-none border-none cursor-pointer py-2 px-2 hover:bg-white hover:bg-opacity-10 rounded">
               Home
             </button>
-            <button onClick={() => scrollToSection('services')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:opacity-60 bg-none border-none cursor-pointer">
+            <button onClick={() => scrollToSection('services')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:translate-x-2 bg-none border-none cursor-pointer py-2 px-2 hover:bg-white hover:bg-opacity-10 rounded">
               Services
             </button>
-            <button onClick={() => scrollToSection('testimonials')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:opacity-60 bg-none border-none cursor-pointer">
+            <button onClick={() => scrollToSection('testimonials')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:translate-x-2 bg-none border-none cursor-pointer py-2 px-2 hover:bg-white hover:bg-opacity-10 rounded">
               Testimonials
             </button>
-            <button onClick={() => scrollToSection('about')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:opacity-60 border-b border-white pb-2 bg-none border-none cursor-pointer">
+            <button onClick={() => scrollToSection('about')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:translate-x-2 border-b border-white pb-2 bg-none border-none cursor-pointer py-2 px-2 hover:bg-white hover:bg-opacity-10 rounded">
               Über uns
             </button>
-            <button onClick={() => scrollToSection('contact')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:opacity-60 bg-none border-none cursor-pointer">
+            <button onClick={() => scrollToSection('contact')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:translate-x-2 bg-none border-none cursor-pointer py-2 px-2 hover:bg-white hover:bg-opacity-10 rounded">
               Kontakt
             </button>
           </nav>
