@@ -36,8 +36,8 @@ function Hero() {
                           top: '-15%',
                           left: '50%',
                           transform: 'translateX(-50%)',
-                          width: '1.1835em',
-                          height: '1.1835em',
+                          width: '0.789em',
+                          height: '0.789em',
                           objectFit: 'contain'
                         }}
                       />
