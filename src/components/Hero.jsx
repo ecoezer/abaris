@@ -27,15 +27,15 @@ function Hero() {
                   <div className="relative text-4xl sm:text-6xl md:text-7xl lg:text-[120px] leading-none tracking-wide inline-block">
                     Abar
                     <span className="relative inline-block">
-                      i
+                      ı
                       <svg
                         className="absolute hidden md:block lg:block"
                         style={{
                           top: '-50%',
                           left: '50%',
                           transform: 'translateX(-50%)',
-                          width: '1.2em',
-                          height: '1.2em'
+                          width: '0.9em',
+                          height: '0.9em'
                         }}
                         viewBox="0 0 100 100"
                         xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ function Hero() {
                 </h1>
 
                 <p className="text-white text-sm sm:text-base md:text-lg mb-8 md:mb-10 lg:mb-6 font-light">
-                  Wir begrüßen Sie auf den Seiten von Abaris Reinigungsservice
+                  Wir begrüßen Sie auf den Seiten von Abarıs Reinigungsservice
                 </p>
               </div>
 
@@ -114,7 +114,7 @@ function Hero() {
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-gray-900 mb-4">
                 Das bieten wir Ihnen
               </h2>
-              <p className="text-gray-600 font-light mb-2 text-sm md:text-base">Abaris Reinigungsservice</p>
+              <p className="text-gray-600 font-light mb-2 text-sm md:text-base">Abarıs Reinigungsservice</p>
               <p className="text-gray-700 leading-relaxed font-light max-w-sm text-sm md:text-base">
                 Wir schreiben SERVICE groß! Wir garantieren eine Qualität mit dem Fokus auf individuelle Lösungen. Ihre
               </p>
