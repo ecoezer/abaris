@@ -24,7 +24,7 @@ function Hero() {
             <div className="w-2/3 pt-1 md:pt-2 lg:pt-0 px-2 md:px-3 flex flex-col justify-start items-start">
               <div className="text-left w-full">
                 <h1 className="text-white font-light mb-2 md:mb-2">
-                  <div className="relative text-5xl sm:text-7xl md:text-8xl lg:text-[150px] leading-none tracking-wide inline-block ml-4 md:ml-8 lg:ml-12">
+                  <div className="relative text-5xl sm:text-7xl md:text-8xl lg:text-[150px] leading-none tracking-wide inline-block ml-12 md:ml-20 lg:ml-32">
                     Abar
                     <span className="relative inline-block">
                       ı
