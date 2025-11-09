@@ -37,7 +37,7 @@ function Contact() {
               K O N T A K T
             </div>
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-light text-gray-900 mb-8">
-              Nehmen Sie Kontakt auf
+              Kontakt
             </h2>
 
             <div className="space-y-8">
