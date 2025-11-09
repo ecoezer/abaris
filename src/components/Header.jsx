@@ -43,27 +43,27 @@ function Header() {
             <button onClick={() => scrollToSection('hero')} className="text-white text-sm lg:text-base transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer">
               <span className="relative z-10 block px-4 py-2">Home</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-              <span className="absolute -inset-2 bg-white opacity-0 group-hover:opacity-15 transition-opacity duration-300 rounded"></span>
+              <span className="absolute -inset-2 bg-white opacity-0 group-hover:opacity-15 transition-opacity duration-300 rounded-lg"></span>
             </button>
             <button onClick={() => scrollToSection('services')} className="text-white text-sm lg:text-base transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer">
               <span className="relative z-10 block px-4 py-2">Services</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-              <span className="absolute -inset-2 bg-white opacity-0 group-hover:opacity-15 transition-opacity duration-300 rounded"></span>
+              <span className="absolute -inset-2 bg-white opacity-0 group-hover:opacity-15 transition-opacity duration-300 rounded-lg"></span>
             </button>
             <button onClick={() => scrollToSection('testimonials')} className="text-white text-sm lg:text-base transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer">
               <span className="relative z-10 block px-4 py-2">Testimonials</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-              <span className="absolute -inset-2 bg-white opacity-0 group-hover:opacity-15 transition-opacity duration-300 rounded"></span>
+              <span className="absolute -inset-2 bg-white opacity-0 group-hover:opacity-15 transition-opacity duration-300 rounded-lg"></span>
             </button>
             <button onClick={() => scrollToSection('about')} className="text-white text-sm lg:text-base transition-all duration-300 hover:scale-105 border-b-2 border-white pb-1 relative group bg-none border-none cursor-pointer">
               <span className="relative z-10 block px-4 py-2">Über uns</span>
               <span className="absolute bottom-0 left-0 w-full h-0.5 bg-white"></span>
-              <span className="absolute -inset-2 bg-white opacity-0 group-hover:opacity-15 transition-opacity duration-300 rounded"></span>
+              <span className="absolute -inset-2 bg-white opacity-0 group-hover:opacity-15 transition-opacity duration-300 rounded-lg"></span>
             </button>
             <button onClick={() => scrollToSection('contact')} className="text-white text-sm lg:text-base transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer">
               <span className="relative z-10 block px-4 py-2">Kontakt</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-              <span className="absolute -inset-2 bg-white opacity-0 group-hover:opacity-15 transition-opacity duration-300 rounded"></span>
+              <span className="absolute -inset-2 bg-white opacity-0 group-hover:opacity-15 transition-opacity duration-300 rounded-lg"></span>
             </button>
           </nav>
         </div>
