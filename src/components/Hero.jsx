@@ -24,7 +24,27 @@ function Hero() {
             <div className="w-2/3 pt-2 md:pt-4 lg:pt-0 px-4 md:px-8 flex flex-col justify-start items-start">
               <div className="text-left w-full">
                 <h1 className="text-white font-light mb-4 md:mb-6">
-                  <div className="text-4xl sm:text-6xl md:text-7xl lg:text-[120px] leading-none tracking-wide">Abaris</div>
+                  <div className="relative text-4xl sm:text-6xl md:text-7xl lg:text-[120px] leading-none tracking-wide inline-block">
+                    Abar
+                    <span className="relative inline-block">
+                      i
+                      <svg
+                        className="absolute hidden md:block lg:block text-orange-500"
+                        style={{
+                          top: '-35%',
+                          left: '50%',
+                          transform: 'translateX(-50%)',
+                          width: '0.4em',
+                          height: '0.4em'
+                        }}
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path d="M12 2 L13.5 10.5 L22 12 L13.5 13.5 L12 22 L10.5 13.5 L2 12 L10.5 10.5 Z" />
+                      </svg>
+                    </span>
+                    s
+                  </div>
                   <div className="text-lg sm:text-2xl md:text-2xl lg:text-[32px] tracking-[0.3em] mt-2 font-helvetica">DÜSSELDORF</div>
                 </h1>
 
