@@ -10,7 +10,7 @@ function About() {
           <div className="w-full flex justify-center">
             <div className="w-3/5 rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '300/470' }}>
               <img
-                src="/owner_new.jpg"
+                src="/Generated Image November 09, 2025 - 9_41PM.png"
                 alt="Ayseqül Baris - Abaris Reinigungsservice"
                 className="w-full h-full object-contain bg-white"
               />
