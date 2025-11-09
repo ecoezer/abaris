@@ -34,8 +34,8 @@ function Hero() {
                           top: '-50%',
                           left: '50%',
                           transform: 'translateX(-50%)',
-                          width: '0.9em',
-                          height: '0.9em'
+                          width: '0.585em',
+                          height: '0.585em'
                         }}
                       />
                     </span>
@@ -54,7 +54,7 @@ function Hero() {
                 {/* Qualität */}
                 <div className="flex flex-col items-center text-center group h-full">
                   <div className="mb-2 md:mb-2 lg:mb-4 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
-                    <GoNorthStar className="text-white" size={20} />
+                    <GoNorthStar className="text-white" size={13} />
                   </div>
                   <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-4 transition-all duration-300 group-hover:scale-105">Qualität</h3>
                   <p className="text-white font-light text-xs md:text-xs lg:text-sm leading-relaxed opacity-90">
@@ -65,7 +65,7 @@ function Hero() {
                 {/* Service */}
                 <div className="flex flex-col items-center text-center group h-full">
                   <div className="mb-2 md:mb-2 lg:mb-4 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
-                    <GoNorthStar className="text-white" size={20} />
+                    <GoNorthStar className="text-white" size={13} />
                   </div>
                   <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-4 transition-all duration-300 group-hover:scale-105">Service</h3>
                   <p className="text-white font-light text-xs md:text-xs lg:text-sm leading-relaxed opacity-90">
@@ -76,7 +76,7 @@ function Hero() {
                 {/* Nachhaltigkeit */}
                 <div className="flex flex-col items-center text-center group h-full">
                   <div className="mb-2 md:mb-2 lg:mb-4 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
-                    <GoNorthStar className="text-white" size={20} />
+                    <GoNorthStar className="text-white" size={13} />
                   </div>
                   <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-4 transition-all duration-300 group-hover:scale-105">Nachhaltigkeit</h3>
                   <p className="text-white font-light text-xs md:text-xs lg:text-sm leading-relaxed opacity-90">
