@@ -6,15 +6,6 @@ function Hero() {
     <div className="relative bg-white">
       {/* Hero Section */}
       <div className="relative min-h-screen bg-abaris-cyan overflow-hidden">
-      {/* Decorative star in header */}
-      <div className="absolute top-8 right-32">
-        <div className="text-white opacity-50">
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-            <path d="M20 0 L22 18 L40 20 L22 22 L20 40 L18 22 L0 20 L18 18 Z" fill="currentColor"/>
-          </svg>
-        </div>
-      </div>
-
       <div className="w-full px-0 pt-32 pb-0">
         <div className="grid grid-cols-2 gap-0 items-stretch">
           {/* Left side - Image and Content Container */}
