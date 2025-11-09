@@ -41,7 +41,7 @@ function Hero() {
                 </div>
                 <h3 className="text-white text-2xl font-light mb-4">Qualität</h3>
                 <p className="text-white font-light text-sm leading-relaxed opacity-90">
-                  Ihnen hohe Qualität und faire einen individuell angepassten
+                  Wir bieten Ihnen hohe Qualität und faire Preise für einen individuell angepassten Service durch genaue Analyse Ihrer Bedürfnisse.
                 </p>
               </div>
 
@@ -52,7 +52,7 @@ function Hero() {
                 </div>
                 <h3 className="text-white text-2xl font-light mb-4">Service</h3>
                 <p className="text-white font-light text-sm leading-relaxed opacity-90">
-                  Mit umfassenden Serviceleistungen von der Grundreinigung bis zur Unterhaltsreinigung
+                  Mit umfassenden Serviceleistungen von der Grundreinigung bis zur Unterhaltsreinigung und Hauswirtschaft sind wir der passende Partner für Arztpraxen, Büros, Kitas u.a.
                 </p>
               </div>
 
@@ -63,7 +63,7 @@ function Hero() {
                 </div>
                 <h3 className="text-white text-2xl font-light mb-4">Nachhaltigkeit</h3>
                 <p className="text-white font-light text-sm leading-relaxed opacity-90">
-                  Der behutsame Umgang mit Ihrer Einrichtung ist für uns ebenfalls
+                  Der behutsame Umgang mit Ihrer Einrichtung ist für uns ebenso selbstverständlich wie die nachhaltige Verwendung der Reinigungsmittel.
                 </p>
               </div>
             </div>
