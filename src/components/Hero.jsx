@@ -25,23 +25,7 @@ function Hero() {
               <div className="text-left w-full">
                 <h1 className="text-white font-light mb-4 md:mb-6">
                   <div className="relative text-4xl sm:text-6xl md:text-7xl lg:text-[120px] leading-none tracking-wide inline-block">
-                    Abar
-                    <span className="relative inline-block">
-                      i
-                      <img
-                        src="/star_no_bg.png"
-                        alt="Star"
-                        className="absolute hidden md:block lg:block"
-                        style={{
-                          top: '-40%',
-                          left: '50%',
-                          transform: 'translateX(-50%)',
-                          width: '1em',
-                          height: '1em'
-                        }}
-                      />
-                    </span>
-                    s
+                    Abaris
                   </div>
                   <div className="text-lg sm:text-2xl md:text-2xl lg:text-[32px] tracking-[0.3em] mt-2 font-helvetica">DÜSSELDORF</div>
                 </h1>
