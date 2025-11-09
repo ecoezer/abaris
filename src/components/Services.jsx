@@ -11,23 +11,23 @@ function Services() {
     },
     {
       title: 'Praxisreinigung',
-      description: 'Spezialisierte Reinigung für medizinische Praxen mit höchsten Hygienestandards. Wir kümmern uns um alle Bereiche Ihrer Praxis mit besonderer Aufmerksamkeit auf Sauberkeitserfordernisse im Gesundheitswesen.'
+      description: 'Die hygienischen Qualitätsstandards im Gesundheitswesen erfordern ein Maximum an Fachwissen und Sorgfalt. Krankheitserreger stellen ein ständiges Risiko dar – Professionalität und Erfahrung zeichnen uns in diesem Bereich aus.\n\nFür uns spielen hierbei die Gründlichkeit und hygienische Sauberkeit eine große Rolle Dies garantieren wir durch unsere professionell geschulten und erfahrenen MitarbeiterInnen.\n\nBei der Reinigung der Räumlichkeiten richten wir uns selbstverständlich nach Ihren Wünschen und Vorgaben.'
     },
     {
       title: 'Fensterreinigung',
-      description: 'Professionelle Fensterreinigung für Ihr Büro oder Ihre Einrichtung. Mit modernen Techniken und gründlicher Arbeit sorgen wir für strahlend saubere Fenster und maximale Helligkeit in Ihren Räumen.'
+      description: 'Denken Sie an Ihr tägliches Leben. Wir schauen jeden Tag durch ein Fenster, um die Dinge Zuhause oder in unserer Umgebung zu sehen. Der Blick durch das Fenster, durch die Brillengläser und sogar der Blick auf den Computermonitor oder das geliebte Smartphone. Wir sitzen in einem Glashaus! Und dieser Blick muss klar sein, sonst verfälscht er das Leben. Wir geben Ihnen den klaren Durchblick!'
     },
     {
       title: 'Grundreinigung',
-      description: 'Intensive Grundreinigung von Grund auf. Wir kümmern uns um jeden Winkel und jede Oberfläche, um Ihre Räume wieder in glänzenden Zustand zu versetzen. Ideal für Neubezüge oder intensive Auffrischungen.'
+      description: 'Im Zuge der professionellen Grundreinigung werden hartnäckige Verschmutzungen von Böden und Oberflächen entfernt, die bei der täglichen Oberflächen- und Sichtreinigung (meist aus zeitlichen Gründen) nicht zu meistern sind. Die Grundreinigung schließt zudem die Reinigung von schwer zugänglichen Stellen sowie ggf. die Versiegelung von Böden ein.'
     },
     {
       title: 'Haushaltsreinigung',
-      description: 'Zuverlässige und gründliche Reinigung Ihres Privathaushalt. Von Böden bis zu Oberflächen – wir sorgen für ein sauberes und angenehmes Zuhause, das Sie genießen können.'
+      description: 'Wir bieten Ihnen für gehobene Ansprüche professionelle und hygienische Unterstützung bei der Reinigung (mit Desinfektionsmitteln) Ihrer Wohnung, Ihres Hauses und Ihrer Büroräume an.\n\nIn Zeiten von COVID-19 ist Reinigung wichtiger denn je geworden. Sie sind berufstätig, haben Kinder und Familie und wissen nicht, wie Sie alles unter einen Hut bekommen! Kontaktieren Sie uns. Wir sind für Sie da und unterstützen Sie gerne mit unserer langjährigen Reinigungserfahrung. Auf uns können Sie sich verlassen und wir stellen sicher, dass wir alle Ihre Wünsche gemäß den gesetzlichen Hygiene-Anforderungen erfüllen.\n\nIhre Zeit ist kostbar. Delegieren Sie diese Aufgaben an uns und nutzen Sie Ihre Zeit für persönliche und familiäre Dinge. Schenken Sie Ihrer Familie und sich Zeit. Es gibt nichts kostbareres auf dieser Welt.\n\nBei einem persönlichen Kennenlernen können wir alle weiteren Details der Reinigung besprechen.'
     },
     {
       title: 'Reinigungsservice COVID-19',
-      description: 'Spezialisierte Desinfektionsreinigung mit modernen Verfahren. Wir bieten eine gründliche Reinigung und Desinfektion Ihrer Räume nach den aktuellen Hygienestandards und Anforderungen.'
+      description: 'In Zeiten von COVID-19 ist der Reinigungsservice wichtiger denn je geworden. Viele Reinigungsmittel haben nur einen geringen Effekt gegen Viren und Bakterien, oder werden falsch angewendet.\n\nZum Beispiel muss die Dosierung von Reinigungsmitteln exakt ermittelt werden, damit sie wirken. Ein Zuviel kann den Oberflächen, der Haut oder den Atemwegen sogar schaden.\n\nAuch das Sprühen von Reinigungs- und Desinfektionsmitteln sollte noch mehr als sonst hinterfragt werden. Hierbei ist eine vollständige Reinigung der Oberfläche nicht gewährleistet, sodass in der Regel nachgewischt werden muss. Hierbei entstehen kleine Tröpfchen, die auch in die Atemwege gelangen und die Gesundheit gefährden. Das muss man insbesondere jetzt vermeiden!\n\nAbaris Reinigungsservice ist soviel mehr als nur ein Gebäudereiniger, wir sind ein Reinigungsservice, der seinen Kunden Zeit widmet.'
     }
   ]
 
