@@ -1,0 +1,90 @@
+import React from 'react'
+import StarIcon from './StarIcon'
+
+function About() {
+  const values = [
+    {
+      title: 'Qualität',
+      description: 'Hohe Qualitätsstandards in jedem Detail unserer Arbeit'
+    },
+    {
+      title: 'Zuverlässigkeit',
+      description: 'Sie können sich auf uns verlassen - pünktlich und gewissenhaft'
+    },
+    {
+      title: 'Nachhaltigkeit',
+      description: 'Umweltbewusste Reinigungsmittel und nachhaltige Praktiken'
+    },
+    {
+      title: 'Kundenfokus',
+      description: 'Ihre Bedürfnisse stehen an erster Stelle unseres Handelns'
+    }
+  ]
+
+  return (
+    <div className="bg-white py-16 md:py-24">
+      <div className="max-w-7xl mx-auto px-4 md:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+          <div>
+            <div className="uppercase text-abaris-cyan text-xs sm:text-sm tracking-widest font-light mb-4">
+              Ü B E R U N S
+            </div>
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-light text-gray-900 mb-6">
+              Abaris Reinigungsservice Düsseldorf
+            </h2>
+            <p className="text-gray-700 font-light mb-6 leading-relaxed text-sm md:text-base">
+              Mit jahrelanger Erfahrung in der Reinigungsbranche bieten wir professionelle Reinigungslösungen für Büros, Praxen und private Haushalte in Düsseldorf und Umgebung.
+            </p>
+            <p className="text-gray-600 font-light mb-8 leading-relaxed text-sm md:text-base">
+              Wir schreiben SERVICE groß! Unser Team aus geschulten Profis garantiert höchste Qualität mit dem Fokus auf individuelle Lösungen für Ihre spezifischen Anforderungen.
+            </p>
+            <div className="space-y-4">
+              <div className="flex items-start">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-6 w-6 rounded-full bg-abaris-cyan bg-opacity-20">
+                    <div className="h-2 w-2 bg-abaris-cyan rounded-full"></div>
+                  </div>
+                </div>
+                <p className="ml-3 text-gray-700 font-light text-sm">Professionelle Reinigung seit vielen Jahren</p>
+              </div>
+              <div className="flex items-start">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-6 w-6 rounded-full bg-abaris-cyan bg-opacity-20">
+                    <div className="h-2 w-2 bg-abaris-cyan rounded-full"></div>
+                  </div>
+                </div>
+                <p className="ml-3 text-gray-700 font-light text-sm">Geschultes und erfahrenes Team</p>
+              </div>
+              <div className="flex items-start">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-6 w-6 rounded-full bg-abaris-cyan bg-opacity-20">
+                    <div className="h-2 w-2 bg-abaris-cyan rounded-full"></div>
+                  </div>
+                </div>
+                <p className="ml-3 text-gray-700 font-light text-sm">Umweltfreundliche und nachhaltige Praktiken</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {values.map((value, index) => (
+              <div key={index} className="p-6 bg-gray-50 rounded-lg border border-gray-100 hover:border-abaris-cyan transition-colors">
+                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-abaris-cyan bg-opacity-10 mb-4">
+                  <StarIcon />
+                </div>
+                <h3 className="text-lg font-light text-gray-900 mb-2">
+                  {value.title}
+                </h3>
+                <p className="text-gray-600 font-light text-sm">
+                  {value.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default About
