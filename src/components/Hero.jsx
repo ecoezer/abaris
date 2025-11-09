@@ -25,7 +25,7 @@ function Hero() {
           <div className="pt-8 px-8 flex flex-col justify-start">
             <h1 className="text-white font-light mb-6">
               <div className="text-[120px] leading-none tracking-wide">Abaris</div>
-              <div className="text-[32px] tracking-[0.3em] mt-2">GEBÄUDEREINIGUNG</div>
+              <div className="text-[32px] tracking-[0.3em] mt-2">DÜSSELDORF</div>
             </h1>
 
             <p className="text-white text-lg mb-16 font-light">
