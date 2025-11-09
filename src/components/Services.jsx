@@ -55,7 +55,7 @@ function Services() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-gray-900 mb-6">
               Das bieten wir Ihnen
             </h2>
-            <p className="text-gray-600 font-light mb-4 text-sm md:text-base">Arabis Reinigungsservice</p>
+            <p className="text-gray-600 font-light mb-4 text-sm md:text-base">Abaris Reinigungsservice</p>
             <p className="text-gray-700 leading-relaxed font-light text-sm md:text-base mb-4">
               Wir schreiben SERVICE groß! Wir garantieren eine Qualität mit dem Fokus auf individuelle Lösungen. Ihre Wünsche und Vorgaben setzen wir flexibel und termingerecht um.
             </p>
@@ -63,7 +63,7 @@ function Services() {
               Dabei arbeiten wir als motiviertes Team gründlich und nachhaltig. Umweltschutz und Zuverlässigkeit sind für uns ebenso wichtig wie Diskretion.
             </p>
             <p className="text-gray-700 leading-relaxed font-light text-sm md:text-base">
-              Gönnen Sie sich eine Auszeit! Mit dem Arabis Reinigungsservice.
+              Gönnen Sie sich eine Auszeit! Mit dem Abaris Reinigungsservice.
             </p>
           </div>
 
