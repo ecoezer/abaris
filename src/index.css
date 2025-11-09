@@ -11,3 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.font-helvetica {
+  font-family: 'Helvetica', 'Helvetica Neue', sans-serif;
+}

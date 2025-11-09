@@ -25,7 +25,7 @@ function Hero() {
               <div className="text-left w-full">
                 <h1 className="text-white font-light mb-4 md:mb-6">
                   <div className="text-4xl sm:text-6xl md:text-7xl lg:text-[120px] leading-none tracking-wide">Abaris</div>
-                  <div className="text-lg sm:text-2xl md:text-2xl lg:text-[32px] tracking-[0.3em] mt-2">DÜSSELDORF</div>
+                  <div className="text-lg sm:text-2xl md:text-2xl lg:text-[32px] tracking-[0.3em] mt-2 font-helvetica">DÜSSELDORF</div>
                 </h1>
 
                 <p className="text-white text-sm sm:text-base md:text-lg mb-8 md:mb-10 lg:mb-6 font-light">
