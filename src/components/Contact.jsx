@@ -51,7 +51,8 @@ function Contact() {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-light text-gray-900">Telefon</h3>
-                  <p className="text-gray-600 font-light mt-1">+49 (0) 211 XXX XXXX</p>
+                  <p className="text-gray-600 font-light mt-1">0211 / 139 548 47</p>
+                  <p className="text-gray-600 font-light">0176 / 616 339 71</p>
                 </div>
               </div>
 
@@ -65,7 +66,7 @@ function Contact() {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-light text-gray-900">E-Mail</h3>
-                  <p className="text-gray-600 font-light mt-1">info@abaris-reinigung.de</p>
+                  <p className="text-gray-600 font-light mt-1">info@abaris-gebaeudereinigung.de</p>
                 </div>
               </div>
 
@@ -80,7 +81,8 @@ function Contact() {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-light text-gray-900">Adresse</h3>
-                  <p className="text-gray-600 font-light mt-1">Düsseldorf, Deutschland</p>
+                  <p className="text-gray-600 font-light mt-1">Bonifatiusstr. 78</p>
+                  <p className="text-gray-600 font-light">40547 Düsseldorf</p>
                 </div>
               </div>
 
@@ -95,7 +97,7 @@ function Contact() {
                 <div className="ml-4">
                   <h3 className="text-lg font-light text-gray-900">Öffnungszeiten</h3>
                   <p className="text-gray-600 font-light mt-1">Mo-Fr: 08:00 - 18:00 Uhr</p>
-                  <p className="text-gray-600 font-light">Sa: Nach Vereinbarung</p>
+                  <p className="text-gray-600 font-light">Sa: 08:00 - 14:00 Uhr</p>
                 </div>
               </div>
             </div>
