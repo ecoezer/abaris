@@ -21,18 +21,20 @@ function Hero() {
             </div>
 
             {/* Right side - Content */}
-            <div className="lg:col-span-9 pt-8 md:pt-8 px-4 md:px-8 flex flex-col justify-start">
-              <h1 className="text-white font-light mb-4 md:mb-6">
-                <div className="text-4xl sm:text-6xl md:text-7xl lg:text-[120px] leading-none tracking-wide">Abaris</div>
-                <div className="text-lg sm:text-2xl md:text-2xl lg:text-[32px] tracking-[0.3em] mt-2">DÜSSELDORF</div>
-              </h1>
+            <div className="lg:col-span-9 pt-8 md:pt-8 px-4 md:px-8 flex flex-col justify-center lg:items-end">
+              <div className="lg:text-right lg:max-w-2xl">
+                <h1 className="text-white font-light mb-4 md:mb-6">
+                  <div className="text-4xl sm:text-6xl md:text-7xl lg:text-[120px] leading-none tracking-wide">Abaris</div>
+                  <div className="text-lg sm:text-2xl md:text-2xl lg:text-[32px] tracking-[0.3em] mt-2">DÜSSELDORF</div>
+                </h1>
 
-              <p className="text-white text-sm sm:text-base md:text-lg mb-8 md:mb-16 font-light">
-                Wir begrüßen Sie auf den Seiten von Abaris Reinigungsservice
-              </p>
+                <p className="text-white text-sm sm:text-base md:text-lg mb-8 md:mb-16 font-light">
+                  Wir begrüßen Sie auf den Seiten von Abaris Reinigungsservice
+                </p>
+              </div>
 
               {/* Feature Cards */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 w-full">
                 {/* Qualität */}
                 <div className="flex flex-col items-center text-center group">
                   <div className="mb-4 md:mb-8 flex items-center justify-center w-12 md:w-16 h-12 md:h-16 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
