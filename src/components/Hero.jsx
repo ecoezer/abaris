@@ -29,18 +29,21 @@ function Hero() {
                     <span className="relative inline-block">
                       i
                       <svg
-                        className="absolute hidden md:block lg:block text-orange-500"
+                        className="absolute hidden md:block lg:block"
                         style={{
-                          top: '-35%',
+                          top: '-40%',
                           left: '50%',
                           transform: 'translateX(-50%)',
-                          width: '0.4em',
-                          height: '0.4em'
+                          width: '0.5em',
+                          height: '0.5em'
                         }}
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
+                        viewBox="0 0 100 100"
+                        fill="none"
                       >
-                        <path d="M12 2 L13.5 10.5 L22 12 L13.5 13.5 L12 22 L10.5 13.5 L2 12 L10.5 10.5 Z" />
+                        <line x1="50" y1="10" x2="50" y2="90" stroke="#FF9500" strokeWidth="4" strokeLinecap="round" />
+                        <line x1="10" y1="50" x2="90" y2="50" stroke="#FF9500" strokeWidth="4" strokeLinecap="round" />
+                        <line x1="20" y1="20" x2="80" y2="80" stroke="#FF9500" strokeWidth="4" strokeLinecap="round" />
+                        <line x1="80" y1="20" x2="20" y2="80" stroke="#FF9500" strokeWidth="4" strokeLinecap="round" />
                       </svg>
                     </span>
                     s
