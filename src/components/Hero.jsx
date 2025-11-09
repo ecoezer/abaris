@@ -41,7 +41,7 @@ function Hero() {
                     </span>
                     s
                   </div>
-                  <div className="text-xl sm:text-3xl md:text-3xl lg:text-[40px] tracking-[0.3em] mt-1 font-helvetica ml-12 md:ml-24 lg:ml-32">DÜSSELDORF</div>
+                  <div className="text-xl sm:text-3xl md:text-3xl lg:text-[40px] tracking-[0.3em] mt-1 font-helvetica ml-16 md:ml-32 lg:ml-40">DÜSSELDORF</div>
                 </h1>
 
                 <p className="text-white text-sm sm:text-base md:text-lg mb-3 md:mb-4 lg:mb-2 font-light">
