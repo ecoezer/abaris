@@ -58,7 +58,9 @@ function Hero() {
                   </div>
                   <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-2 transition-all duration-300 group-hover:scale-105">Qualität</h3>
                   <p className="text-white font-light text-xs md:text-xs lg:text-sm leading-relaxed opacity-90">
-                    Wir bieten Ihnen hohe Qualität und faire Preise für einen individuell angepassten Service durch genaue Analyse Ihrer Bedürfnisse.
+                    Abaris steht für Perfektion bis ins Detail –
+für Sauberkeit, die Vertrauen schafft
+und Eleganz, die bleibt.
                   </p>
                 </div>
 
