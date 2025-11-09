@@ -36,8 +36,8 @@ function Hero() {
                           top: '-40%',
                           left: '50%',
                           transform: 'translateX(-50%)',
-                          width: '0.5em',
-                          height: '0.5em'
+                          width: '1em',
+                          height: '1em'
                         }}
                       />
                     </span>
