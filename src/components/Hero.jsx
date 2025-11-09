@@ -32,6 +32,42 @@ function Hero() {
               Wir begrüßen Sie auf den Seiten von Abaris Reinigungsservice
             </p>
 
+            {/* Feature Cards */}
+            <div className="grid grid-cols-3 gap-8">
+              {/* Qualität */}
+              <div className="flex flex-col items-center text-center">
+                <div className="mb-6 flex items-center justify-center w-16 h-16 border-2 border-white">
+                  <StarIcon />
+                </div>
+                <h3 className="text-white text-2xl font-light mb-4">Qualität</h3>
+                <p className="text-white font-light text-sm leading-relaxed opacity-90">
+                  Ihnen hohe Qualität und faire einen individuell angepassten
+                </p>
+              </div>
+
+              {/* Service */}
+              <div className="flex flex-col items-center text-center">
+                <div className="mb-6 flex items-center justify-center w-16 h-16 border-2 border-white">
+                  <StarIcon />
+                </div>
+                <h3 className="text-white text-2xl font-light mb-4">Service</h3>
+                <p className="text-white font-light text-sm leading-relaxed opacity-90">
+                  Mit umfassenden Serviceleistungen von der Grundreinigung bis zur Unterhaltsreinigung
+                </p>
+              </div>
+
+              {/* Nachhaltigkeit */}
+              <div className="flex flex-col items-center text-center">
+                <div className="mb-6 flex items-center justify-center w-16 h-16 border-2 border-white">
+                  <StarIcon />
+                </div>
+                <h3 className="text-white text-2xl font-light mb-4">Nachhaltigkeit</h3>
+                <p className="text-white font-light text-sm leading-relaxed opacity-90">
+                  Der behutsame Umgang mit Ihrer Einrichtung ist für uns ebenfalls
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
 
