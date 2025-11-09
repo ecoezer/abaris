@@ -44,10 +44,6 @@ function Header() {
               Home
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </button>
-            <button onClick={() => scrollToSection('about')} className="text-white text-sm lg:text-base transition-all duration-300 hover:opacity-60 hover:scale-105 border-b-2 border-white pb-1 relative group bg-none border-none cursor-pointer">
-              Über uns
-              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-white"></span>
-            </button>
             <button onClick={() => scrollToSection('services')} className="text-white text-sm lg:text-base transition-all duration-300 hover:opacity-60 hover:scale-105 relative group bg-none border-none cursor-pointer">
               Services
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
@@ -55,6 +51,10 @@ function Header() {
             <button onClick={() => scrollToSection('testimonials')} className="text-white text-sm lg:text-base transition-all duration-300 hover:opacity-60 hover:scale-105 relative group bg-none border-none cursor-pointer">
               Testimonials
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            </button>
+            <button onClick={() => scrollToSection('about')} className="text-white text-sm lg:text-base transition-all duration-300 hover:opacity-60 hover:scale-105 border-b-2 border-white pb-1 relative group bg-none border-none cursor-pointer">
+              Über uns
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-white"></span>
             </button>
             <button onClick={() => scrollToSection('contact')} className="text-white text-sm lg:text-base transition-all duration-300 hover:opacity-60 hover:scale-105 relative group bg-none border-none cursor-pointer">
               Kontakt
@@ -68,14 +68,14 @@ function Header() {
             <button onClick={() => scrollToSection('hero')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:opacity-60 bg-none border-none cursor-pointer">
               Home
             </button>
-            <button onClick={() => scrollToSection('about')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:opacity-60 border-b border-white pb-2 bg-none border-none cursor-pointer">
-              Über uns
-            </button>
             <button onClick={() => scrollToSection('services')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:opacity-60 bg-none border-none cursor-pointer">
               Services
             </button>
             <button onClick={() => scrollToSection('testimonials')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:opacity-60 bg-none border-none cursor-pointer">
               Testimonials
+            </button>
+            <button onClick={() => scrollToSection('about')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:opacity-60 border-b border-white pb-2 bg-none border-none cursor-pointer">
+              Über uns
             </button>
             <button onClick={() => scrollToSection('contact')} className="block w-full text-left text-white text-sm transition-all duration-300 hover:opacity-60 bg-none border-none cursor-pointer">
               Kontakt
