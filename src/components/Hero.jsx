@@ -34,16 +34,16 @@ function Hero() {
                           top: '-50%',
                           left: '50%',
                           transform: 'translateX(-50%)',
-                          width: '1.2em',
-                          height: '1.2em'
+                          width: '1.3em',
+                          height: '1.3em'
                         }}
                         viewBox="0 0 100 100"
                         xmlns="http://www.w3.org/2000/svg"
                       >
-                        <polygon
-                          points="50,5 61,35 93,35 68,58 79,88 50,65 21,88 32,58 7,35 39,35"
-                          fill="#FF8C00"
-                        />
+                        <g fill="#FF8C00">
+                          <polygon points="50,5 53,40 88,43 60,63 63,98 50,73 37,98 40,63 12,43 47,40" />
+                          <polygon points="50,5 53,40 88,43 60,63 63,98 50,73 37,98 40,63 12,43 47,40" transform="rotate(22.5 50 50)" />
+                        </g>
                       </svg>
                     </span>
                     s
