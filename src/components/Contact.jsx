@@ -11,6 +11,21 @@ function Contact() {
   const [termsAccepted, setTermsAccepted] = useState(false)
   const [submitted, setSubmitted] = useState(false)
 
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    return emailRegex.test(email)
+  }
+
+  const isFormValid = () => {
+    return (
+      formData.name.trim().length > 0 &&
+      validateEmail(formData.email) &&
+      formData.service &&
+      formData.message.trim().length >= 100 &&
+      termsAccepted
+    )
+  }
+
   const handleChange = (e) => {
     const { name, value } = e.target
     setFormData(prev => ({
@@ -21,7 +36,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    if (!termsAccepted) return
+    if (!isFormValid()) return
     setSubmitted(true)
     setTimeout(() => {
       setFormData({ name: '', email: '', phone: '', service: '', message: '' })
@@ -175,16 +190,30 @@ function Contact() {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-light text-gray-900 mb-2">Nachricht</label>
+                  <label className="block text-sm font-light text-gray-900 mb-2">
+                    Nachricht
+                    <span className="ml-2 text-gray-500 text-xs">
+                      ({formData.message.trim().length}/100 Zeichen)
+                    </span>
+                  </label>
                   <textarea
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
                     required
                     rows="4"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg font-light focus:outline-none focus:border-abaris-cyan transition-colors resize-none"
-                    placeholder="Ihre Nachricht..."
+                    className={`w-full px-4 py-2 border rounded-lg font-light focus:outline-none transition-colors resize-none ${
+                      formData.message.trim().length >= 100
+                        ? 'border-abaris-cyan focus:border-abaris-cyan'
+                        : 'border-gray-300 focus:border-abaris-cyan'
+                    }`}
+                    placeholder="Ihre Nachricht (mindestens 100 Zeichen)..."
                   ></textarea>
+                  {formData.message.trim().length < 100 && formData.message.length > 0 && (
+                    <p className="text-red-500 text-xs mt-1">
+                      Mindestens {100 - formData.message.trim().length} mehr Zeichen erforderlich
+                    </p>
+                  )}
                 </div>
 
                 <div className="flex items-start mt-6">
@@ -202,9 +231,9 @@ function Contact() {
 
                 <button
                   type="submit"
-                  disabled={!termsAccepted}
+                  disabled={!isFormValid()}
                   className={`w-full font-light py-3 rounded-lg transition-all duration-300 transform ${
-                    termsAccepted
+                    isFormValid()
                       ? 'bg-abaris-cyan text-white hover:bg-opacity-90 hover:scale-105 cursor-pointer'
                       : 'bg-gray-300 text-gray-500 cursor-not-allowed'
                   }`}
