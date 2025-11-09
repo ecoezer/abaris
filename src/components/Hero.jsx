@@ -5,8 +5,8 @@ function Hero() {
   return (
     <div className="relative bg-white">
       {/* Hero Section */}
-      <div className="relative min-h-screen bg-abaris-cyan overflow-hidden">
-        <div className="w-full h-full px-4 md:px-8 pt-20 md:pt-24 pb-8 md:pb-0">
+      <div className="relative bg-abaris-cyan overflow-hidden">
+        <div className="w-full h-full px-4 md:px-8 pt-20 md:pt-24 pb-0">
           <div className="flex gap-0 h-full items-stretch">
             {/* Left side - Image */}
             <div className="relative w-1/3 flex flex-col items-start overflow-hidden -ml-4 md:-ml-8">
