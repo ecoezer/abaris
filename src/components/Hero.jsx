@@ -7,7 +7,7 @@ function Hero() {
       {/* Hero Section */}
       <div className="relative min-h-screen bg-abaris-cyan overflow-visible">
       <div className="w-full px-0 pt-32 pb-0">
-        <div className="grid grid-cols-2 gap-0 items-stretch">
+        <div className="grid gap-0 items-stretch" style={{ gridTemplateColumns: '1.3fr 1fr' }}>
           {/* Left side - Image and Content Container */}
           <div className="relative ml-0 w-full h-full flex flex-col items-end overflow-visible">
             {/* Image */}
