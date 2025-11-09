@@ -31,7 +31,7 @@ function Hero() {
                       <GoNorthStar
                         className="absolute hidden md:block lg:block text-orange-500"
                         style={{
-                          top: '-8%',
+                          top: '-25%',
                           left: '50%',
                           transform: 'translateX(-50%)',
                           width: '0.585em',
