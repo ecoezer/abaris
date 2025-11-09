@@ -8,7 +8,7 @@ function About() {
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
           <div className="w-full flex justify-center">
-            <div className="w-4/5 rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '300/470' }}>
+            <div className="w-3/5 rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '300/470' }}>
               <img
                 src="/owner_new.jpg"
                 alt="Ayseqül Baris - Abaris Reinigungsservice"
