@@ -3,7 +3,7 @@ import StarIcon from './StarIcon'
 
 function Hero() {
   return (
-    <div className="relative bg-white">
+    <div className="relative bg-abaris-cyan">
       {/* Hero Section */}
       <div className="relative min-h-screen bg-abaris-cyan overflow-hidden">
       {/* Decorative star in header */}
@@ -105,7 +105,7 @@ function Hero() {
       </div>
 
       {/* Services Section */}
-      <div className="bg-white pt-32 pb-20">
+      <div className="bg-abaris-cyan pt-32 pb-20">
         <div className="max-w-7xl mx-auto px-8">
           <div className="uppercase text-gray-600 text-sm tracking-widest font-light mb-12">
             S E R V I C E S
