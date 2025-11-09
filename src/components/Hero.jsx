@@ -21,10 +21,10 @@ function Hero() {
             </div>
 
             {/* Right side - Content */}
-            <div className="w-2/3 pt-1 md:pt-2 lg:pt-0 px-2 md:px-3 flex flex-col justify-start items-start">
-              <div className="text-left w-full">
-                <h1 className="text-white font-light mb-2 md:mb-2">
-                  <div className="relative text-5xl sm:text-7xl md:text-8xl lg:text-[150px] leading-none tracking-wide inline-block ml-16 md:ml-28 lg:ml-48">
+            <div className="w-2/3 pt-1 md:pt-2 lg:pt-0 px-2 md:px-3 flex flex-col justify-start items-center">
+              <div className="text-center w-full">
+                <h1 className="text-white font-light mb-2 md:mb-2 flex flex-col items-center">
+                  <div className="relative text-5xl sm:text-7xl md:text-8xl lg:text-[150px] leading-none tracking-wide inline-block">
                     Abar
                     <span className="relative inline-block">
                       ı
@@ -41,10 +41,10 @@ function Hero() {
                     </span>
                     s
                   </div>
-                  <div className="text-xl sm:text-3xl md:text-3xl lg:text-[46px] tracking-[0.3em] mt-1 font-bold font-helvetica ml-12 md:ml-24 lg:ml-32">DÜSSELDORF</div>
+                  <div className="text-xl sm:text-3xl md:text-3xl lg:text-[46px] tracking-[0.3em] mt-1 font-bold font-helvetica">DÜSSELDORF</div>
                 </h1>
 
-                <p className="text-white text-sm sm:text-base md:text-lg mb-3 md:mb-4 lg:mb-2 font-light lg:ml-12">
+                <p className="text-white text-sm sm:text-base md:text-lg mb-3 md:mb-4 lg:mb-2 font-light">
                   Wir begrüßen Sie auf den Seiten von Abarıs Reinigungsservice
                 </p>
               </div>
