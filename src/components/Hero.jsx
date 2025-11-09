@@ -28,7 +28,7 @@ function Hero() {
                     Abar
                     <span className="relative inline-block">
                       ı
-                      <img src="/star copy.png" alt="star" className="absolute hidden md:block lg:block" style={{ top: '-15%', left: '50%', transform: 'translateX(-50%)', width: '0.986em', height: 'auto', aspectRatio: '1' }} />
+                      <img src="/star copy.png" alt="star" className="absolute hidden md:block lg:block" style={{ top: '-15%', left: '50%', transform: 'translateX(-50%)', width: '1.5em', height: 'auto', aspectRatio: '1' }} />
                     </span>
                     s
                   </div>
