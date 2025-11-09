@@ -13,7 +13,7 @@ function Hero() {
               {/* Image */}
               <div className="relative z-10 w-full h-full flex items-end justify-start">
                 <img
-                  src="/abaris-new-tinified-1-871x1024 (1).png"
+                  src="/abaris.png"
                   alt="Abaris Cleaning Professional"
                   className="w-auto h-full max-w-full object-contain object-bottom"
                 />
