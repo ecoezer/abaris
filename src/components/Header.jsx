@@ -42,25 +42,20 @@ function Header() {
           </button>
 
           <nav className="hidden md:flex items-center gap-8 lg:gap-12">
-            <button onClick={() => scrollToSection('hero')} className={`text-white text-base lg:text-lg font-bold transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer ${activeSection === 'hero' ? 'underline' : ''}`}>
+            <button onClick={() => scrollToSection('hero')} className={`text-white text-base lg:text-lg font-bold transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer pb-2 ${activeSection === 'hero' ? 'border-b-2 border-white' : ''}`}>
               <span className="relative z-10 block px-4 py-2">Home</span>
-              <span className={`absolute bottom-0 left-0 h-0.5 bg-white transition-all duration-300 ${activeSection === 'hero' ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
             </button>
-            <button onClick={() => scrollToSection('services')} className={`text-white text-base lg:text-lg font-bold transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer ${activeSection === 'services' ? 'underline' : ''}`}>
+            <button onClick={() => scrollToSection('services')} className={`text-white text-base lg:text-lg font-bold transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer pb-2 ${activeSection === 'services' ? 'border-b-2 border-white' : ''}`}>
               <span className="relative z-10 block px-4 py-2">Services</span>
-              <span className={`absolute bottom-0 left-0 h-0.5 bg-white transition-all duration-300 ${activeSection === 'services' ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
             </button>
-            <button onClick={() => scrollToSection('testimonials')} className={`text-white text-base lg:text-lg font-bold transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer ${activeSection === 'testimonials' ? 'underline' : ''}`}>
+            <button onClick={() => scrollToSection('testimonials')} className={`text-white text-base lg:text-lg font-bold transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer pb-2 ${activeSection === 'testimonials' ? 'border-b-2 border-white' : ''}`}>
               <span className="relative z-10 block px-4 py-2">Testimonials</span>
-              <span className={`absolute bottom-0 left-0 h-0.5 bg-white transition-all duration-300 ${activeSection === 'testimonials' ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
             </button>
-            <button onClick={() => scrollToSection('about')} className={`text-white text-base lg:text-lg font-bold transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer ${activeSection === 'about' ? 'underline' : ''}`}>
+            <button onClick={() => scrollToSection('about')} className={`text-white text-base lg:text-lg font-bold transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer pb-2 ${activeSection === 'about' ? 'border-b-2 border-white' : ''}`}>
               <span className="relative z-10 block px-4 py-2">Über uns</span>
-              <span className={`absolute bottom-0 left-0 h-0.5 bg-white transition-all duration-300 ${activeSection === 'about' ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
             </button>
-            <button onClick={() => scrollToSection('contact')} className={`text-white text-base lg:text-lg font-bold transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer ${activeSection === 'contact' ? 'underline' : ''}`}>
+            <button onClick={() => scrollToSection('contact')} className={`text-white text-base lg:text-lg font-bold transition-all duration-300 hover:scale-105 relative group bg-none border-none cursor-pointer pb-2 ${activeSection === 'contact' ? 'border-b-2 border-white' : ''}`}>
               <span className="relative z-10 block px-4 py-2">Kontakt</span>
-              <span className={`absolute bottom-0 left-0 h-0.5 bg-white transition-all duration-300 ${activeSection === 'contact' ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
             </button>
           </nav>
         </div>
