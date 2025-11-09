@@ -22,33 +22,17 @@ function Hero() {
 
             {/* Right side - Content */}
             <div className="w-2/3 pt-2 md:pt-4 lg:pt-0 px-4 md:px-8 flex flex-col justify-start items-start">
-              <div className="text-left w-full">
-                <h1 className="text-white font-light mb-4 md:mb-6">
-                  <div className="relative text-4xl sm:text-6xl md:text-7xl lg:text-[120px] leading-none tracking-wide inline-block">
-                    Abar
-                    <span className="relative inline-block">
-                      i
-                      <img
-                        src="/star_no_bg.png"
-                        alt="Star"
-                        className="absolute hidden md:block lg:block"
-                        style={{
-                          top: '-40%',
-                          left: '50%',
-                          transform: 'translateX(-50%)',
-                          width: '1em',
-                          height: '1em'
-                        }}
-                      />
-                    </span>
-                    s
-                  </div>
-                  <div className="text-lg sm:text-2xl md:text-2xl lg:text-[32px] tracking-[0.3em] mt-2 font-helvetica">DÜSSELDORF</div>
-                </h1>
-
-                <p className="text-white text-sm sm:text-base md:text-lg mb-8 md:mb-10 lg:mb-6 font-light">
-                  Wir begrüßen Sie auf den Seiten von Abaris Reinigungsservice
-                </p>
+              <div className="text-left w-full mb-8 md:mb-12">
+                <img
+                  src="/Screenshot 2025-11-09 at 18.12.32.png"
+                  alt="Abaris"
+                  className="w-full max-w-3xl mb-6"
+                />
+                <img
+                  src="/Screenshot 2025-11-09 at 18.14.23.png"
+                  alt="Abaris Düsseldorf"
+                  className="w-full max-w-2xl"
+                />
               </div>
 
               {/* Feature Cards */}
