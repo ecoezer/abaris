@@ -6,7 +6,7 @@ function Hero() {
     <div className="relative bg-white">
       {/* Hero Section */}
       <div className="relative bg-abaris-cyan overflow-hidden">
-        <div className="w-full px-4 md:px-8 pt-20 md:pt-24" style={{minHeight: 'calc(100vh - 80px)'}}>
+        <div className="w-full px-4 md:px-8 pt-20 md:pt-24 pb-0" style={{minHeight: 'calc(100vh - 80px)', height: 'calc(100vh - 80px)'}}>
           <div className="flex gap-0 h-full items-stretch">
             {/* Left side - Image */}
             <div className="relative w-1/3 flex flex-col items-start overflow-visible -ml-4 md:-ml-8">
@@ -15,7 +15,7 @@ function Hero() {
                 <img
                   src="/abaris-new-tinified-1-871x1024 (1).png"
                   alt="Abaris Cleaning Professional"
-                  className="w-auto h-full max-w-full object-contain"
+                  className="w-auto h-full max-w-full object-contain object-bottom"
                 />
               </div>
             </div>
