@@ -6,7 +6,7 @@ function Hero() {
     <div id="hero" className="relative bg-white">
       {/* Hero Section */}
       <div className="relative bg-abaris-cyan overflow-hidden">
-        <div className="w-full px-2 md:px-3 pt-13 md:pt-14 pb-0" style={{minHeight: 'calc(100vh - 100px)', height: 'calc(100vh - 100px)'}}>
+        <div className="w-full px-2 md:px-3 pt-20 md:pt-24 pb-0" style={{minHeight: 'calc(100vh - 100px)', height: 'calc(100vh - 100px)'}}>
           <div className="flex gap-0 h-full items-stretch">
             {/* Left side - Image */}
             <div className="relative w-1/3 flex flex-col items-start overflow-visible -ml-2 md:-ml-3">
