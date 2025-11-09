@@ -1,5 +1,5 @@
 import React from 'react'
-import StarIcon from './StarIcon'
+import { GoNorthStar } from 'react-icons/go'
 
 function Hero() {
   return (
@@ -28,8 +28,8 @@ function Hero() {
                     Abar
                     <span className="relative inline-block">
                       ı
-                      <svg
-                        className="absolute hidden md:block lg:block"
+                      <GoNorthStar
+                        className="absolute hidden md:block lg:block text-orange-500"
                         style={{
                           top: '-50%',
                           left: '50%',
@@ -37,20 +37,7 @@ function Hero() {
                           width: '0.9em',
                           height: '0.9em'
                         }}
-                        viewBox="0 0 100 100"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g stroke="#FF8C00" strokeWidth="4" fill="none" strokeLinecap="round">
-                          <line x1="50" y1="10" x2="50" y2="40" />
-                          <line x1="50" y1="60" x2="50" y2="90" />
-                          <line x1="10" y1="50" x2="40" y2="50" />
-                          <line x1="60" y1="50" x2="90" y2="50" />
-                          <line x1="22" y1="22" x2="42" y2="42" />
-                          <line x1="58" y1="58" x2="78" y2="78" />
-                          <line x1="78" y1="22" x2="58" y2="42" />
-                          <line x1="42" y1="58" x2="22" y2="78" />
-                        </g>
-                      </svg>
+                      />
                     </span>
                     s
                   </div>
@@ -67,7 +54,7 @@ function Hero() {
                 {/* Qualität */}
                 <div className="flex flex-col items-center text-center group h-full">
                   <div className="mb-2 md:mb-2 lg:mb-4 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
-                    <StarIcon />
+                    <GoNorthStar className="text-white" size={20} />
                   </div>
                   <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-4 transition-all duration-300 group-hover:scale-105">Qualität</h3>
                   <p className="text-white font-light text-xs md:text-xs lg:text-sm leading-relaxed opacity-90">
@@ -78,7 +65,7 @@ function Hero() {
                 {/* Service */}
                 <div className="flex flex-col items-center text-center group h-full">
                   <div className="mb-2 md:mb-2 lg:mb-4 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
-                    <StarIcon />
+                    <GoNorthStar className="text-white" size={20} />
                   </div>
                   <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-4 transition-all duration-300 group-hover:scale-105">Service</h3>
                   <p className="text-white font-light text-xs md:text-xs lg:text-sm leading-relaxed opacity-90">
@@ -89,7 +76,7 @@ function Hero() {
                 {/* Nachhaltigkeit */}
                 <div className="flex flex-col items-center text-center group h-full">
                   <div className="mb-2 md:mb-2 lg:mb-4 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
-                    <StarIcon />
+                    <GoNorthStar className="text-white" size={20} />
                   </div>
                   <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-4 transition-all duration-300 group-hover:scale-105">Nachhaltigkeit</h3>
                   <p className="text-white font-light text-xs md:text-xs lg:text-sm leading-relaxed opacity-90">
