@@ -6,28 +6,32 @@ function Services() {
 
   const services = [
     {
-      title: 'Büroreinigung',
+      title: 'Abaris Cicero Service - Büroreinigung',
       description: 'Wir garantieren eine regelmäßige und bedarfsgerechte Reinigung Ihrer Büro- und Sozialräume nach einem individuell erstellten Reinigungsplan. Unser Team reinigt effektiv Ihre Sanitärbereiche und desinfiziert Türgriffe u.a. standardmäßig.\n\nEgal welchen Boden Sie haben, Teppich, Fliesen, Stein oder Parkett – Für uns kein Problem! Wir übernehmen die fachgerechte Reinigung.'
     },
     {
-      title: 'Praxisreinigung',
+      title: 'Abaris Kitas Service',
+      description: 'Spezialisierte Reinigungslösungen für Kindertagesstätten mit höchsten Hygienestandards. Wir sorgen für eine sichere und saubere Umgebung für die Kleinen.'
+    },
+    {
+      title: 'Abaris Hypatia Service - Praxisreinigung',
       description: 'Die hygienischen Qualitätsstandards im Gesundheitswesen erfordern ein Maximum an Fachwissen und Sorgfalt. Krankheitserreger stellen ein ständiges Risiko dar – Professionalität und Erfahrung zeichnen uns in diesem Bereich aus.\n\nFür uns spielen hierbei die Gründlichkeit und hygienische Sauberkeit eine große Rolle Dies garantieren wir durch unsere professionell geschulten und erfahrenen MitarbeiterInnen.\n\nBei der Reinigung der Räumlichkeiten richten wir uns selbstverständlich nach Ihren Wünschen und Vorgaben.'
     },
     {
-      title: 'Fensterreinigung',
+      title: 'Abaris Pro Service',
+      description: 'Professionelle Reinigungslösungen für gewerbliche und industrielle Einrichtungen. Maßgeschneiderte Konzepte für Ihre individuellen Anforderungen.'
+    },
+    {
+      title: 'Abaris Atlas Service',
+      description: 'Umfassende Reinigungsdienstleistungen für große Gebäudekomplexe und Bürozentren. Zuverlässig, effizient und termingerecht.'
+    },
+    {
+      title: 'Abaris Helios Service',
       description: 'Denken Sie an Ihr tägliches Leben. Wir schauen jeden Tag durch ein Fenster, um die Dinge Zuhause oder in unserer Umgebung zu sehen. Der Blick durch das Fenster, durch die Brillengläser und sogar der Blick auf den Computermonitor oder das geliebte Smartphone. Wir sitzen in einem Glashaus! Und dieser Blick muss klar sein, sonst verfälscht er das Leben. Wir geben Ihnen den klaren Durchblick!'
     },
     {
-      title: 'Grundreinigung',
-      description: 'Im Zuge der professionellen Grundreinigung werden hartnäckige Verschmutzungen von Böden und Oberflächen entfernt, die bei der täglichen Oberflächen- und Sichtreinigung (meist aus zeitlichen Gründen) nicht zu meistern sind. Die Grundreinigung schließt zudem die Reinigung von schwer zugänglichen Stellen sowie ggf. die Versiegelung von Böden ein.'
-    },
-    {
-      title: 'Haushaltsreinigung',
-      description: 'Wir bieten Ihnen für gehobene Ansprüche professionelle und hygienische Unterstützung bei der Reinigung (mit Desinfektionsmitteln) Ihrer Wohnung, Ihres Hauses und Ihrer Büroräume an.\n\nIn Zeiten von COVID-19 ist Reinigung wichtiger denn je geworden. Sie sind berufstätig, haben Kinder und Familie und wissen nicht, wie Sie alles unter einen Hut bekommen! Kontaktieren Sie uns. Wir sind für Sie da und unterstützen Sie gerne mit unserer langjährigen Reinigungserfahrung. Auf uns können Sie sich verlassen und wir stellen sicher, dass wir alle Ihre Wünsche gemäß den gesetzlichen Hygiene-Anforderungen erfüllen.\n\nIhre Zeit ist kostbar. Delegieren Sie diese Aufgaben an uns und nutzen Sie Ihre Zeit für persönliche und familiäre Dinge. Schenken Sie Ihrer Familie und sich Zeit. Es gibt nichts kostbareres auf dieser Welt.\n\nBei einem persönlichen Kennenlernen können wir alle weiteren Details der Reinigung besprechen.'
-    },
-    {
-      title: 'Reinigungsservice COVID-19',
-      description: 'In Zeiten von COVID-19 ist der Reinigungsservice wichtiger denn je geworden. Viele Reinigungsmittel haben nur einen geringen Effekt gegen Viren und Bakterien, oder werden falsch angewendet.\n\nZum Beispiel muss die Dosierung von Reinigungsmitteln exakt ermittelt werden, damit sie wirken. Ein Zuviel kann den Oberflächen, der Haut oder den Atemwegen sogar schaden.\n\nAuch das Sprühen von Reinigungs- und Desinfektionsmitteln sollte noch mehr als sonst hinterfragt werden. Hierbei ist eine vollständige Reinigung der Oberfläche nicht gewährleistet, sodass in der Regel nachgewischt werden muss. Hierbei entstehen kleine Tröpfchen, die auch in die Atemwege gelangen und die Gesundheit gefährden. Das muss man insbesondere jetzt vermeiden!\n\nAbaris Reinigungsservice ist soviel mehr als nur ein Gebäudereiniger, wir sind ein Reinigungsservice, der seinen Kunden Zeit widmet.'
+      title: 'Abaris Hygiene Plus',
+      description: 'In Zeiten erhöhter Hygieneanforderungen ist unser Service wichtiger denn je. Viele Reinigungsmittel haben nur einen geringen Effekt gegen Viren und Bakterien, oder werden falsch angewendet.\n\nZum Beispiel muss die Dosierung von Reinigungsmitteln exakt ermittelt werden, damit sie wirken. Ein Zuviel kann den Oberflächen, der Haut oder den Atemwegen sogar schaden.\n\nAbaris Reinigungsservice ist soviel mehr als nur ein Gebäudereiniger, wir sind ein Reinigungsservice, der seinen Kunden Zeit widmet.'
     }
   ]
 
