@@ -34,9 +34,9 @@ function Hero() {
               </div>
 
               {/* Feature Cards */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-8 w-full">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-8 w-full pb-8 md:pb-0">
                 {/* Qualität */}
-                <div className="flex flex-col items-center text-center group">
+                <div className="flex flex-col items-center text-center group h-full">
                   <div className="mb-2 md:mb-2 lg:mb-8 flex items-center justify-center w-10 md:w-10 lg:w-16 h-10 md:h-10 lg:h-16 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
                     <StarIcon />
                   </div>
@@ -47,7 +47,7 @@ function Hero() {
                 </div>
 
                 {/* Service */}
-                <div className="flex flex-col items-center text-center group">
+                <div className="flex flex-col items-center text-center group h-full">
                   <div className="mb-2 md:mb-2 lg:mb-8 flex items-center justify-center w-10 md:w-10 lg:w-16 h-10 md:h-10 lg:h-16 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
                     <StarIcon />
                   </div>
@@ -58,7 +58,7 @@ function Hero() {
                 </div>
 
                 {/* Nachhaltigkeit */}
-                <div className="flex flex-col items-center text-center group">
+                <div className="flex flex-col items-center text-center group h-full">
                   <div className="mb-2 md:mb-2 lg:mb-8 flex items-center justify-center w-10 md:w-10 lg:w-16 h-10 md:h-10 lg:h-16 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white group-hover:bg-opacity-10">
                     <StarIcon />
                   </div>
