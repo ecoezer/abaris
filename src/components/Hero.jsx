@@ -11,11 +11,11 @@ function Hero() {
           {/* Left side - Image and Content Container */}
           <div className="relative ml-0 w-full h-full flex flex-col items-end overflow-visible">
             {/* Image */}
-            <div className="relative z-10 h-full w-full overflow-visible flex items-center justify-center">
+            <div className="relative z-10 h-full w-full overflow-visible">
               <img
                 src="/abaris-new-tinified-1-871x1024 (1).png"
                 alt="Abaris Cleaning Professional"
-                className="w-3/4 h-3/4 object-contain"
+                className="w-full h-full object-contain"
               />
             </div>
 
