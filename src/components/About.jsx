@@ -7,11 +7,12 @@ function About() {
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
           <div className="w-full">
-            <div className="w-full aspect-square bg-gray-300 rounded flex items-center justify-center">
-              <span className="text-gray-500 text-center">
-                <p className="text-sm">Placeholder</p>
-                <p className="text-xs">Women Photo</p>
-              </span>
+            <div className="w-full aspect-square rounded overflow-hidden">
+              <img
+                src="/owner_new.jpg"
+                alt="Ayseqül Baris - Abaris Reinigungsservice"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 
