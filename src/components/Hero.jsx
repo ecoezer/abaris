@@ -5,17 +5,17 @@ function Hero() {
   return (
     <div className="relative bg-white">
       {/* Hero Section */}
-      <div className="relative min-h-screen bg-abaris-cyan overflow-hidden">
+      <div className="relative min-h-screen bg-abaris-cyan overflow-visible">
       <div className="w-full px-0 pt-32 pb-0">
         <div className="grid grid-cols-2 gap-0 items-stretch">
           {/* Left side - Image and Content Container */}
-          <div className="relative ml-0 w-full h-full flex flex-col items-end">
+          <div className="relative ml-0 w-full h-full flex flex-col items-end overflow-visible">
             {/* Image */}
-            <div className="relative z-10 h-full w-full">
+            <div className="relative z-10 h-full w-full overflow-visible">
               <img
                 src="/abaris-new-tinified-1-871x1024 (1).png"
                 alt="Abaris Cleaning Professional"
-                className="w-4/5 h-full object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
 
