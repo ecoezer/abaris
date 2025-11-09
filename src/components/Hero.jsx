@@ -33,11 +33,11 @@ function Hero() {
                         alt=""
                         className="absolute hidden md:block lg:block"
                         style={{
-                          top: '-25%',
+                          top: '-15%',
                           left: '50%',
                           transform: 'translateX(-50%)',
-                          width: '0.585em',
-                          height: '0.585em',
+                          width: '0.789em',
+                          height: '0.789em',
                           objectFit: 'contain'
                         }}
                       />
