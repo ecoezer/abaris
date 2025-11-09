@@ -83,31 +83,33 @@ function About() {
           </div>
         </div>
 
-        <div className="border-t border-gray-200 pt-16 md:pt-24">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
-            <div className="order-2 lg:order-1">
-              <img
-                src="/abaris-new-tinified-1-871x1024 (1).png"
-                alt="Geschäftsführerin"
-                className="w-full h-auto rounded-lg shadow-lg"
-              />
-            </div>
-            <div className="order-1 lg:order-2">
-              <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
-                Langjährige Erfahrung zahlt sich aus. Auf mich und mein Team ist Verlass, dass garantiere ich Ihnen!
-              </p>
-              <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
-                Der Name meines Reinigungsservice leitet sich aus dem griechischen „Abaris Hyperdoros", zu Deutsch „Abaris Hyperboreer" ab. Dieser war laut Überlieferung um das 7. oder 6. Jahrhundert vor Christus ein legendärer Heiler und Reinigungspriester sowie ein großer Verehrer des Gottes Apollon.
-              </p>
-              <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
-                Die zufällige Anlehnung meines Namens, A(yseqül) Baris an den Namen des mythologischen Wunderheilers und Reinigers inspirierte mich dazu, meinen Reinigungsservice in Anlehnung an ihn zu benennen.
-              </p>
-              <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
-                Ich kann zwar nicht heilen, doch können Sie mich gerne mit der Reinigung Ihrer Büros, Praxen, Ladenlokale, Kitas etc. beauftragen.
-              </p>
-              <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
-                Ich habe Jahre für ein internationales Unternehmen im Bereich BIO-Cotton-Produkte wie Textilien gearbeitet und war dabei für die Organisation und Präsentation von Messen verantwortlich. Dabei legte ich besonderes Augenmerk auf Sorgfalt und Qualität in jeglicher Hinsicht.
-              </p>
+        <div className="bg-[#e8e3d8] -mx-4 md:-mx-8 px-4 md:px-8 py-16 md:py-24 mt-16 md:mt-24">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-20 items-start">
+              <div className="lg:pr-8">
+                <img
+                  src="/abaris-new-tinified-1-871x1024 (1).png"
+                  alt="Geschäftsführerin"
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="lg:pl-8">
+                <p className="text-gray-800 font-light mb-8 leading-relaxed text-base md:text-lg">
+                  Langjährige Erfahrung zahlt sich aus. Auf mich und mein Team ist Verlass, dass garantiere ich Ihnen!
+                </p>
+                <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
+                  Der Name meines Reinigungsservice leitet sich aus dem griechischen „Abaris Hyperdoros", zu Deutsch „Abaris Hyperboreer" ab. Dieser war laut Überlieferung um das 7. oder 6. Jahrhundert vor Christus ein legendärer Heiler und Reinigungspriester sowie ein großer Verehrer des Gottes Apollon.
+                </p>
+                <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
+                  Die zufällige Anlehnung meines Namens, A(yseqül) Baris an den Namen des mythologischen Wunderheilers und Reinigers inspirierte mich dazu, meinen Reinigungsservice in Anlehnung an ihn zu benennen.
+                </p>
+                <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
+                  Ich kann zwar nicht heilen, doch können Sie mich gerne mit der Reinigung Ihrer Büros, Praxen, Ladenlokale, Kitas etc. beauftragen.
+                </p>
+                <p className="text-gray-700 font-light mb-0 leading-relaxed text-base">
+                  Ich habe Jahre für ein internationales Unternehmen im Bereich BIO-Cotton-Produkte wie Textilien gearbeitet und war dabei für die Organisation und Präsentation von Messen verantwortlich. Dabei legte ich besonderes Augenmerk auf Sorgfalt und Qualität in jeglicher Hinsicht.
+                </p>
+              </div>
             </div>
           </div>
         </div>
