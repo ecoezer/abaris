@@ -15,7 +15,7 @@ function Hero() {
               <img
                 src="/abaris-new-tinified-1-871x1024 (1).png"
                 alt="Abaris Cleaning Professional"
-                className="w-4/5 h-4/5 object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
 
