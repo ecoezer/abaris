@@ -9,9 +9,9 @@ function Hero() {
         <div className="w-full h-full px-4 md:px-8 pt-24 md:pt-32 pb-8 md:pb-0">
           <div className="grid gap-0 h-full md:items-stretch grid-cols-1 lg:grid-cols-2" style={{ gridTemplateColumns: 'auto' }}>
             {/* Left side - Image and Content Container */}
-            <div className="relative w-full flex flex-col items-center lg:items-end overflow-hidden">
+            <div className="relative w-full flex flex-col items-center lg:items-start overflow-hidden">
               {/* Image */}
-              <div className="relative z-10 w-full h-64 sm:h-80 md:h-96 lg:h-full flex items-center justify-center lg:block">
+              <div className="relative z-10 w-full h-64 sm:h-80 md:h-96 lg:h-full flex items-center justify-center lg:justify-start">
                 <img
                   src="/abaris-new-tinified-1-871x1024 (1).png"
                   alt="Abaris Cleaning Professional"
