@@ -37,7 +37,8 @@ function Hero() {
                           left: '50%',
                           transform: 'translateX(-50%)',
                           width: '0.585em',
-                          height: '0.585em'
+                          height: '0.585em',
+                          objectFit: 'contain'
                         }}
                       />
                     </span>
