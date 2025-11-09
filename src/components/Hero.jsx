@@ -7,7 +7,7 @@ function Hero() {
       {/* Hero Section */}
       <div className="relative min-h-screen bg-abaris-cyan overflow-hidden">
       {/* Decorative star in header */}
-      <div className="absolute top-6 right-1/3 transform translate-x-1/2">
+      <div className="absolute top-8 right-32">
         <div className="text-white opacity-50">
           <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
             <path d="M20 0 L22 18 L40 20 L22 22 L20 40 L18 22 L0 20 L18 18 Z" fill="currentColor"/>
