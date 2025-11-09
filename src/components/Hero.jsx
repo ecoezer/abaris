@@ -16,12 +16,13 @@ function Hero() {
       <div className="max-w-7xl mx-auto px-8 pt-32 pb-16">
         <div className="grid grid-cols-2 gap-16 items-start">
           {/* Left side - Image */}
-          <div className="relative">
+          <div className="relative -ml-20">
             <div className="relative z-10">
-              {/* Placeholder for cleaning lady image */}
-              <div className="w-full aspect-[3/4] bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-lg flex items-center justify-center text-white text-sm">
-                [Image: Cleaning professional with green gloves making OK gesture]
-              </div>
+              <img
+                src="/abaris-new-tinified-1-871x1024 (1).png"
+                alt="Abaris Cleaning Professional"
+                className="w-full h-auto object-contain"
+              />
             </div>
 
             {/* Decorative star */}
