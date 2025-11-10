@@ -72,7 +72,7 @@ und Eleganz, die bleibt.
                   </div>
                   <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-2 transition-all duration-300 group-hover:scale-105">Nachhaltigkeit</h3>
                   <p className="text-white font-light text-xs md:text-xs lg:text-sm leading-relaxed opacity-90">
-                    Schonend für Ihre Räume. Schonend für unsere Umwelt.
+                    Abaris Nachhaltigkeit – Sauberkeit mit Verantwortung.<br />Schonend für Ihre Räume. Schonend für unsere Umwelt.
                   </p>
                 </div>
               </div>
