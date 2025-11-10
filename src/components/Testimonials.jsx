@@ -44,9 +44,9 @@ function Testimonials() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
-              <div className="flex items-center gap-1 mb-6 h-5 bg-orange-500 rounded-full px-3 py-1 w-fit">
+              <div className="flex items-center gap-1 mb-6 h-5">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <svg key={i} className="w-5 h-5 text-white fill-current flex-shrink-0" viewBox="0 0 20 20">
+                  <svg key={i} className="w-5 h-5 text-orange-500 fill-current flex-shrink-0" viewBox="0 0 20 20">
                     <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
                   </svg>
                 ))}
