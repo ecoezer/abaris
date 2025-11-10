@@ -56,15 +56,18 @@ function Services() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-gray-900 mb-6">
               Das bieten wir Ihnen
             </h2>
-            <p className="text-gray-600 font-light mb-4 text-sm md:text-base">Abaris Reinigungsservice</p>
+            <p className="text-gray-600 font-light mb-4 text-sm md:text-base">Abaris Reinigungsservice – Sauberkeit, die Energie schenkt</p>
             <p className="text-gray-700 leading-relaxed font-light text-sm md:text-base mb-4">
-              Wir schreiben SERVICE groß! Wir garantieren eine Qualität mit dem Fokus auf individuelle Lösungen. Ihre Wünsche und Vorgaben setzen wir flexibel und termingerecht um.
+              Bei Abaris Reinigungsservice sind wir überzeugt: Ein sauberer Raum verändert nicht nur die Atmosphäre, sondern auch den Menschen selbst.
             </p>
             <p className="text-gray-700 leading-relaxed font-light text-sm md:text-base mb-4">
-              Dabei arbeiten wir als motiviertes Team gründlich und nachhaltig. Umweltschutz und Zuverlässigkeit sind für uns ebenso wichtig wie Diskretion.
+              Unsere Leistungen gehen über klassische Reinigung hinaus – wir schaffen Hygiene, Leichtigkeit und ein Gefühl von Klarheit. Echte Sauberkeit bringt Motivation, Lebensfreude und fördert die innere Balance.
+            </p>
+            <p className="text-gray-700 leading-relaxed font-light text-sm md:text-base mb-4">
+              Ruhe kehrt dort ein, wo äußere und innere Ordnung harmonieren. Denn die Reinheit unserer Umgebung beeinflusst maßgeblich das Wohlbefinden unserer Seele.
             </p>
             <p className="text-gray-700 leading-relaxed font-light text-sm md:text-base">
-              Gönnen Sie sich eine Auszeit! Mit dem Abaris Reinigungsservice.
+              Abaris – Reinigung trifft Seele.
             </p>
           </div>
 
