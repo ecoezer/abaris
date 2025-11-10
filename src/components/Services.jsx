@@ -35,7 +35,7 @@ function Services() {
     },
     {
       title: 'Abaris Aqua Service',
-      description: 'Spezialisierte Reinigungslösungen für Wasseraufbereitungsanlagen, Pools und Wassersysteme. Höchste Standards für Wasserhygiene und Sauberkeit.'
+      description: 'Einige unserer Kunden verwenden der Umwelt zuliebe Stoffhandtücher anstelle von Papierhandtüchern. Für sie bieten wir unseren Abaris Aqua Service an, bei dem wir Ihre Hand- und Küchentücher umweltfreundlich waschen und frisch zurückliefern. So schützen Sie die Umwelt und bleiben dabei hygienisch bestens versorgt.'
     },
     {
       title: 'Abaris Demeter Service',
