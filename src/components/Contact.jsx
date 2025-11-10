@@ -2,37 +2,20 @@ import React, { useState } from 'react'
 import { database } from '../config/firebase'
 import { ref, push } from 'firebase/database'
 
-const RESEND_API_KEY = 're_f9kvMH93_Lu8ReW5uboRv3C56UzQaH1TY'
-const RECIPIENT_EMAIL = 'ecozer@gmx.de'
+const CLOUD_FUNCTION_URL = `${import.meta.env.VITE_FIREBASE_PROJECT_ID}.cloudfunctions.net/sendContactEmail`
 
-const sendEmailViaResend = async (formData) => {
-  const emailContent = `
-    <h2>Neue Kontaktanfrage von ${formData.name}</h2>
-    <p><strong>Name:</strong> ${formData.name}</p>
-    <p><strong>E-Mail:</strong> ${formData.email}</p>
-    <p><strong>Telefon:</strong> ${formData.phone || 'Nicht angegeben'}</p>
-    <p><strong>Service:</strong> ${formData.service}</p>
-    <p><strong>Nachricht:</strong></p>
-    <p>${formData.message.replace(/\n/g, '<br>')}</p>
-  `
-
-  const response = await fetch('https://api.resend.com/emails', {
+const sendEmailViaCloudFunction = async (formData) => {
+  const response = await fetch(`https://${CLOUD_FUNCTION_URL}`, {
     method: 'POST',
     headers: {
-      'Authorization': `Bearer ${RESEND_API_KEY}`,
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify({
-      from: 'noreply@abaris-reinigungsservice.de',
-      to: RECIPIENT_EMAIL,
-      subject: `Neue Kontaktanfrage: ${formData.service}`,
-      html: emailContent,
-    }),
+    body: JSON.stringify(formData),
   })
 
   if (!response.ok) {
     const error = await response.json()
-    throw new Error(error.message || 'Failed to send email')
+    throw new Error(error.details || error.error || 'Failed to send email')
   }
 
   return response.json()
@@ -89,7 +72,7 @@ function Contact() {
       })
 
       try {
-        await sendEmailViaResend(formData)
+        await sendEmailViaCloudFunction(formData)
       } catch (emailError) {
         console.error('Email sending error:', emailError)
       }
