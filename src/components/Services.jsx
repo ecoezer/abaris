@@ -18,7 +18,7 @@ function Services() {
       description: 'Hygiene trifft Gesundheit\nSauberkeit ist Vertrauen.\nUnser Abaris-Team sorgt für hygienische Reinheit in Arztpraxen, Therapie- und Behandlungsräumen – mit höchster Sorgfalt und Diskretion.\nWir reinigen nicht nur Oberflächen, sondern schaffen ein Umfeld, das Ruhe, Schutz und Wohlbefinden vermittelt.\nDenn Sauberkeit ist die Grundlage jeder Heilung – für Körper, Geist und Raum.'
     },
     {
-      title: 'Abaris Pro Service',
+      title: 'Abaris Dionisos Service',
       description: 'Sauberkeit trifft Gastfreundschaft.\nUnser Abaris-Team bietet einen täglichen Service für Ihre besonderen Momente – sei es bei Besprechungen, Konferenzen oder privaten Anlässen.\nMit liebevoll zubereiteten kleinen Snacks, Kaffee und erfrischenden Getränken schaffen wir eine angenehme, stilvolle Atmosphäre – fast wie ein persönlicher Hostess-Service, der Ihren Gästen ein Lächeln schenkt.'
     },
     {
