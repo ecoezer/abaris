@@ -27,7 +27,7 @@ function Services() {
     },
     {
       title: 'Abaris Helios Service',
-      description: 'Denken Sie an Ihr tägliches Leben. Wir schauen jeden Tag durch ein Fenster, um die Dinge Zuhause oder in unserer Umgebung zu sehen. Der Blick durch das Fenster, durch die Brillengläser und sogar der Blick auf den Computermonitor oder das geliebte Smartphone. Wir sitzen in einem Glashaus! Und dieser Blick muss klar sein, sonst verfälscht er das Leben. Wir geben Ihnen den klaren Durchblick!'
+      description: 'Fensterreinigung\nWir verändern Ihre Perspektive.\nDenken Sie an Ihr tägliches Leben:\nWir schauen jeden Tag durch etwas hindurch – durch Fenster, durch Brillengläser, durch Computer- oder Smartphone-Bildschirme.\nUnsere Sicht auf die Welt hängt davon ab, wie klar sie ist.\nUm positiv zu sehen, brauchen wir einen klaren Blick.\nUnd genau das schenkt Ihnen Abaris –\neine saubere, lichtvolle Perspektive voller Energie und Zuversicht.\nAbaris Düsseldorf – weil klare Sicht auch klare Gedanken schafft.'
     },
     {
       title: 'Abaris Hygiene Plus',
