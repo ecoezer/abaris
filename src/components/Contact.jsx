@@ -47,23 +47,10 @@ function Contact() {
 
     try {
       const contactsRef = ref(database, 'contacts')
-      const newContactRef = push(contactsRef)
-
-      await Promise.all([
-        push(contactsRef, {
-          ...formData,
-          timestamp: new Date().toISOString(),
-          id: newContactRef.key
-        }),
-        fetch(`${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-contact-email`, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
-          },
-          body: JSON.stringify(formData)
-        })
-      ])
+      await push(contactsRef, {
+        ...formData,
+        timestamp: new Date().toISOString()
+      })
 
       setSubmitted(true)
       setFormData({ name: '', email: '', phone: '', service: '', message: '' })
