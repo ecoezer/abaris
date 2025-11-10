@@ -39,7 +39,7 @@ function Services() {
     },
     {
       title: 'Abaris Demeter Service',
-      description: 'Professionelle Reinigung für landwirtschaftliche Betriebe und Außenanlagen. Nachhaltige und umweltfreundliche Lösungen für ländliche Räume.'
+      description: 'Ihre grünen Oasen in besten Händen\nMit unserem Abaris Demeter Service übernehmen wir liebevoll die Pflege und Bewässerung Ihrer Büropflanzen und Blumen. Inspiriert von der Fruchtbarkeitsgöttin Demeter bringen wir ein Hauch von Mythologie und Natur in Ihre Arbeitswelt. So gedeihen Ihre Pflanzen und Ihr Büro bleibt stets grün und lebendig.'
     }
   ]
 
