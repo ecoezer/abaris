@@ -59,7 +59,7 @@ und Eleganz, die bleibt.
                   <div className="mb-1 md:mb-1 lg:mb-2 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full border-2 border-orange-500 transition-all duration-300 group-hover:scale-110 group-hover:bg-orange-500 group-hover:bg-opacity-20">
                     <img src="/star.png" alt="star" className="w-4 h-4 md:w-4 md:h-4 lg:w-5 lg:h-5 object-contain" />
                   </div>
-                  <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-2 transition-all duration-300 group-hover:scale-105">Abaris Service – Sauberkeit mit System</h3>
+                  <h3 className="text-white text-lg md:text-base lg:text-2xl font-light mb-1 md:mb-1 lg:mb-2 transition-all duration-300 group-hover:scale-105">Abaris Service Sauberkeit mit System</h3>
                   <p className="text-white font-light text-xs md:text-xs lg:text-sm leading-relaxed opacity-90">
                     Von Praxen bis Büros: Wir reinigen mit Präzision, Stil und Vertrauen.
                   </p>
