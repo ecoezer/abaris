@@ -19,7 +19,7 @@ function Services() {
     },
     {
       title: 'Abaris Pro Service',
-      description: 'Professionelle Reinigungslösungen für gewerbliche und industrielle Einrichtungen. Maßgeschneiderte Konzepte für Ihre individuellen Anforderungen.'
+      description: 'Sauberkeit trifft Gastfreundschaft.\nUnser Abaris-Team bietet einen täglichen Service für Ihre besonderen Momente – sei es bei Besprechungen, Konferenzen oder privaten Anlässen.\nMit liebevoll zubereiteten kleinen Snacks, Kaffee und erfrischenden Getränken schaffen wir eine angenehme, stilvolle Atmosphäre – fast wie ein persönlicher Hostess-Service, der Ihren Gästen ein Lächeln schenkt.'
     },
     {
       title: 'Abaris Atlas Service',
