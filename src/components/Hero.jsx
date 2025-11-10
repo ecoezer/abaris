@@ -42,12 +42,12 @@ function Hero() {
               {/* Feature Cards */}
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 md:gap-4 lg:gap-4 w-full pb-3 md:pb-0 pt-2 md:pt-3 lg:pt-4">
                 {/* Qualität */}
-                <div className="flex flex-col items-center text-center group h-full">
-                  <div className="mb-2 md:mb-2 lg:mb-3 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full border-2 border-orange-500 transition-all duration-300 group-hover:scale-110 group-hover:bg-orange-500 group-hover:bg-opacity-20">
+                <div className="flex flex-col items-center text-center group h-full bg-white rounded-lg p-4 md:p-5 lg:p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+                  <div className="mb-3 md:mb-4 lg:mb-4 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full bg-abaris-cyan bg-opacity-10 transition-all duration-300 group-hover:bg-opacity-20">
                     <img src="/star.png" alt="star" className="w-4 h-4 md:w-4 md:h-4 lg:w-5 lg:h-5 object-contain" />
                   </div>
-                  <h3 className="text-white text-lg md:text-lg lg:text-lg font-light mb-2 md:mb-2 lg:mb-2 transition-all duration-300 group-hover:scale-105">Qualität</h3>
-                  <p className="text-white font-light text-xs md:text-xs lg:text-xs leading-relaxed opacity-90">
+                  <h3 className="text-abaris-cyan text-lg md:text-lg lg:text-xl font-bold mb-2 md:mb-3 lg:mb-3 transition-all duration-300">Qualität</h3>
+                  <p className="text-gray-700 font-light text-xs md:text-sm lg:text-sm leading-relaxed">
                     Abaris steht für Perfektion bis ins Detail –
 für Sauberkeit, die Vertrauen schafft
 und Eleganz, die bleibt.
@@ -55,23 +55,23 @@ und Eleganz, die bleibt.
                 </div>
 
                 {/* Service */}
-                <div className="flex flex-col items-center text-center group h-full">
-                  <div className="mb-2 md:mb-2 lg:mb-3 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full border-2 border-orange-500 transition-all duration-300 group-hover:scale-110 group-hover:bg-orange-500 group-hover:bg-opacity-20">
+                <div className="flex flex-col items-center text-center group h-full bg-white rounded-lg p-4 md:p-5 lg:p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+                  <div className="mb-3 md:mb-4 lg:mb-4 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full bg-abaris-cyan bg-opacity-10 transition-all duration-300 group-hover:bg-opacity-20">
                     <img src="/star.png" alt="star" className="w-4 h-4 md:w-4 md:h-4 lg:w-5 lg:h-5 object-contain" />
                   </div>
-                  <h3 className="text-white text-lg md:text-lg lg:text-lg font-light mb-2 md:mb-2 lg:mb-2 transition-all duration-300 group-hover:scale-105">Abaris Service Sauberkeit mit System</h3>
-                  <p className="text-white font-light text-xs md:text-xs lg:text-xs leading-relaxed opacity-90">
+                  <h3 className="text-abaris-cyan text-lg md:text-lg lg:text-xl font-bold mb-2 md:mb-3 lg:mb-3 transition-all duration-300">Abaris Service Sauberkeit mit System</h3>
+                  <p className="text-gray-700 font-light text-xs md:text-sm lg:text-sm leading-relaxed">
                     Von Praxen bis Büros: Wir reinigen mit Präzision, Stil und Vertrauen.
                   </p>
                 </div>
 
                 {/* Nachhaltigkeit */}
-                <div className="flex flex-col items-center text-center group h-full">
-                  <div className="mb-2 md:mb-2 lg:mb-3 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full border-2 border-orange-500 transition-all duration-300 group-hover:scale-110 group-hover:bg-orange-500 group-hover:bg-opacity-20">
+                <div className="flex flex-col items-center text-center group h-full bg-white rounded-lg p-4 md:p-5 lg:p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+                  <div className="mb-3 md:mb-4 lg:mb-4 flex items-center justify-center w-10 md:w-10 lg:w-12 h-10 md:h-10 lg:h-12 rounded-full bg-abaris-cyan bg-opacity-10 transition-all duration-300 group-hover:bg-opacity-20">
                     <img src="/star.png" alt="star" className="w-4 h-4 md:w-4 md:h-4 lg:w-5 lg:h-5 object-contain" />
                   </div>
-                  <h3 className="text-white text-lg md:text-lg lg:text-lg font-light mb-2 md:mb-2 lg:mb-2 transition-all duration-300 group-hover:scale-105">Nachhaltigkeit</h3>
-                  <p className="text-white font-light text-xs md:text-xs lg:text-xs leading-relaxed opacity-90">
+                  <h3 className="text-abaris-cyan text-lg md:text-lg lg:text-xl font-bold mb-2 md:mb-3 lg:mb-3 transition-all duration-300">Nachhaltigkeit</h3>
+                  <p className="text-gray-700 font-light text-xs md:text-sm lg:text-sm leading-relaxed">
                     Abaris Nachhaltigkeit – Sauberkeit mit Verantwortung.<br />Schonend für Ihre Räume. Schonend für unsere Umwelt.
                   </p>
                 </div>
