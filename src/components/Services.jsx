@@ -23,7 +23,7 @@ function Services() {
     },
     {
       title: 'Abaris Atlas Service',
-      description: 'Umfassende Reinigungsdienstleistungen für große Gebäudekomplexe und Bürozentren. Zuverlässig, effizient und termingerecht.'
+      description: 'Bau-Endreinigung\nSauberkeit mit Energie und Stil\nWir geben Ihrem Projekt den letzten, strahlenden Schliff.\nMit Achtsamkeit und Liebe zum Detail verwandeln wir Ihre Baustelle in einen sauberen, harmonischen Raum.\nSie haben Ihr Projekt mit Leidenschaft und Kreativität erschaffen –\nwir schenken ihm die Reinheit, die positive Energie und die Vollendung.\nDenn Sauberkeit ist für uns ein Lebensstil.\nAbaris Reinigungsservice – Reinigung trifft Seele.'
     },
     {
       title: 'Abaris Helios Service',
