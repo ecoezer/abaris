@@ -9,9 +9,9 @@ function Testimonials() {
       rating: 5
     },
     {
-      name: 'Anna Müller',
-      company: 'Müller & Co. Versicherungen',
-      text: 'Professionelle Reinigung, freundliches Team und faire Preise. Wir arbeiten seit 2 Jahren mit Abaris zusammen und sind sehr zufrieden.',
+      name: 'Sinan Api',
+      company: '',
+      text: 'Ohne Zweifel ein professioneller Reinigungsservice. Wenn Sie eine wirklich sorgfältige und gründliche Reinigung für Ihr Zuhause oder Büro suchen, ist dieser Service sehr zu empfehlen.',
       rating: 5
     },
     {
