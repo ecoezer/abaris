@@ -2,6 +2,42 @@ import React, { useState } from 'react'
 import { database } from '../config/firebase'
 import { ref, push } from 'firebase/database'
 
+const RESEND_API_KEY = 're_f9kvMH93_Lu8ReW5uboRv3C56UzQaH1TY'
+const RECIPIENT_EMAIL = 'ecozer@gmx.de'
+
+const sendEmailViaResend = async (formData) => {
+  const emailContent = `
+    <h2>Neue Kontaktanfrage von ${formData.name}</h2>
+    <p><strong>Name:</strong> ${formData.name}</p>
+    <p><strong>E-Mail:</strong> ${formData.email}</p>
+    <p><strong>Telefon:</strong> ${formData.phone || 'Nicht angegeben'}</p>
+    <p><strong>Service:</strong> ${formData.service}</p>
+    <p><strong>Nachricht:</strong></p>
+    <p>${formData.message.replace(/\n/g, '<br>')}</p>
+  `
+
+  const response = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${RESEND_API_KEY}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      from: 'noreply@abaris-reinigungsservice.de',
+      to: RECIPIENT_EMAIL,
+      subject: `Neue Kontaktanfrage: ${formData.service}`,
+      html: emailContent,
+    }),
+  })
+
+  if (!response.ok) {
+    const error = await response.json()
+    throw new Error(error.message || 'Failed to send email')
+  }
+
+  return response.json()
+}
+
 function Contact() {
   const [formData, setFormData] = useState({
     name: '',
@@ -51,6 +87,12 @@ function Contact() {
         ...formData,
         timestamp: new Date().toISOString()
       })
+
+      try {
+        await sendEmailViaResend(formData)
+      } catch (emailError) {
+        console.error('Email sending error:', emailError)
+      }
 
       setSubmitted(true)
       setFormData({ name: '', email: '', phone: '', service: '', message: '' })
