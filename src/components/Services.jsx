@@ -11,7 +11,7 @@ function Services() {
     },
     {
       title: 'Abaris Kitas Service',
-      description: 'Spezialisierte Reinigungslösungen für Kindertagesstätten mit höchsten Hygienestandards. Wir sorgen für eine sichere und saubere Umgebung für die Kleinen.'
+      description: 'Abaris Kitas – Kleine Hände, Große Entdeckungen!\nWir denken auch an die Sauberkeit der Orte,\nan denen unsere Kinder den größten Teil ihres Tages verbringen.\nSauberkeit ist für uns ein Lebensstil –\ndenn ein reines, gepflegtes Umfeld stärkt die Energie,\nfördert das Wohlbefinden und inspiriert zu positiver Entwicklung weil echte Sauberkeit wachsen lässt.'
     },
     {
       title: 'Abaris Hypatia Service - Praxisreinigung',
