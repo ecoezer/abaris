@@ -78,7 +78,7 @@ function Services() {
                   onClick={() => setExpandedService(expandedService === index ? -1 : index)}
                   className="w-full flex items-center justify-between pb-4 md:pb-6 border-b border-gray-200 hover:border-abaris-cyan transition-colors group"
                 >
-                  <h3 className="text-lg md:text-xl font-light text-gray-900 text-left">
+                  <h3 className="text-lg md:text-xl font-bold text-gray-900 text-left">
                     {service.title}
                   </h3>
                   <IoChevronUp
