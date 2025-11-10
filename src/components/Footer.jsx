@@ -55,7 +55,7 @@ function Footer() {
                   <a href="tel:+492111395487" className="hover:text-abaris-cyan transition-colors">0211 / 139 548 47</a>
                 </p>
                 <p className="text-gray-400">
-                  <a href="mailto:info@abaris-gebaeudereinigung.de" className="hover:text-abaris-cyan transition-colors">info@abaris-gebaeudereinigung.de</a>
+                  <a href="mailto:info@abaris-reinigungsservice.de" className="hover:text-abaris-cyan transition-colors">info@abaris-reinigungsservice.de</a>
                 </p>
                 <p className="text-gray-400">Düsseldorf, Deutschland</p>
               </div>
@@ -105,7 +105,7 @@ function Footer() {
                 <p className="mb-1">diese vertr. d. d. Geschäftsführerin A. Baris Kolbasi,</p>
                 <p className="mb-1">Bonifatiusstraße 78, 40547 Düsseldorf Deutschland</p>
                 <p className="mb-1">Telefon: 0211 / 139 548 47</p>
-                <p className="mb-1">E-Mail: info@abaris-gebaeudereinigung.de</p>
+                <p className="mb-1">E-Mail: info@abaris-reinigungsservice.de</p>
                 <p className="mb-1">Ust-IdNr.: DE 5103/5119/4373</p>
                 <p className="mb-1">eingetragen im Handelsregister des Amtsgerichtes Düsseldorf</p>
                 <p>Handelsregisternummer HRB 103692</p>
@@ -114,7 +114,7 @@ function Footer() {
               <div>
                 <h3 className="text-lg font-normal text-gray-900 mb-2">Kontakt</h3>
                 <p className="mb-1">Telefon: 0211 139 548 47</p>
-                <p>E-Mail: info@abaris-gebaeudereinigung.de</p>
+                <p>E-Mail: info@abaris-reinigungsservice.de</p>
               </div>
 
               <div>
@@ -336,7 +336,7 @@ function Footer() {
                   Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="http://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" className="text-abaris-cyan hover:underline">http://ec.europa.eu/consumers/odr</a>
                 </p>
                 <p className="mb-4">
-                  Unsere E-Mail-Adresse lautet info@abaris-gebaeudereinigung.de
+                  Unsere E-Mail-Adresse lautet info@abaris-reinigungsservice.de
                 </p>
                 <p className="mb-4">
                   Für Verbraucherstreitigkeiten mit Aysegül Baris Kolbasi wäre die Verbraucherstreitbeilegungsstelle Zentrum für Europäischen Verbraucherschutz e.V. zuständig.

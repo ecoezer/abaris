@@ -85,7 +85,7 @@ function Contact() {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-light text-gray-900">E-Mail</h3>
-                  <p className="text-gray-600 font-light mt-1">info@abaris-gebaeudereinigung.de</p>
+                  <p className="text-gray-600 font-light mt-1">info@abaris-reinigungsservice.de</p>
                 </div>
               </div>
 
