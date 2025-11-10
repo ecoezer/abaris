@@ -10,7 +10,7 @@ function Services() {
       description: 'Wo Raum und Seele im Gleichklang sind\nUnsere Umgebung hat einen starken Einfluss auf unsere Stimmung und Leistungsfähigkeit.\nEin sauberer, gepflegter Raum schafft Ruhe, Klarheit und positive Energie.\nGerade im Büro, wo wir oft mehr Zeit verbringen als zu Hause, ist eine saubere Umgebung der Schlüssel für konzentriertes und harmonisches Arbeiten.\nEin hygienisches und ordentliches Büro fördert nicht nur die Produktivität, sondern auch das innere Gleichgewicht.\nDenn Sauberkeit bedeutet mehr als Ordnung – sie schenkt Leichtigkeit für Körper, Geist und Seele. Wo Raum und Seele im Gleichklang sind.'
     },
     {
-      title: 'Abaris Kitas Service',
+      title: 'Abaris Sirius Service',
       description: 'Abaris Kitas – Kleine Hände, Große Entdeckungen!\nWir denken auch an die Sauberkeit der Orte,\nan denen unsere Kinder den größten Teil ihres Tages verbringen.\nSauberkeit ist für uns ein Lebensstil –\ndenn ein reines, gepflegtes Umfeld stärkt die Energie,\nfördert das Wohlbefinden und inspiriert zu positiver Entwicklung weil echte Sauberkeit wachsen lässt.'
     },
     {
