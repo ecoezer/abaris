@@ -19,23 +19,23 @@ function About() {
 
           <div className="w-full">
             <h2 className="text-gray-900 font-light text-lg md:text-xl leading-relaxed mb-8">
-              Abaris Reinigungsservice – Sauberkeit, die Energie schenkt
+              Über Uns
             </h2>
 
             <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
-              Bei Abaris Reinigungsservice sind wir überzeugt: Ein sauberer Raum verändert nicht nur die Atmosphäre, sondern auch den Menschen selbst.
+              Aysegül Baris Kolbasi, die Gründerin von Abaris Reinigungsservice, sammelte über mehrere Jahre hinweg wertvolle Erfahrungen in einem internationalen Unternehmen für Bio-Baumwolltextilien.
             </p>
 
             <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
-              Unsere Leistungen gehen über klassische Reinigung hinaus – wir schaffen Hygiene, Leichtigkeit und ein Gefühl von Klarheit. Echte Sauberkeit bringt Motivation, Lebensfreude und fördert die innere Balance.
+              Dort war sie verantwortlich für die Organisation und Gestaltung von Messeauftritten – eine Aufgabe, die ein hohes Maß an Präzision, ästhetischem Feingefühl und Liebe zum Detail verlangte.
             </p>
 
             <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
-              Ruhe kehrt dort ein, wo äußere und innere Ordnung harmonieren. Denn die Reinheit unserer Umgebung beeinflusst maßgeblich das Wohlbefinden unserer Seele.
+              Diese Fähigkeiten prägen ihre heutige Arbeit maßgeblich: Jeder Auftrag bei Abaris basiert auf Achtsamkeit, Sinn für Schönheit und absoluter Zuverlässigkeit – Werte, die sie seit Beginn ihres beruflichen Weges verkörpert.
             </p>
 
             <p className="text-gray-700 font-light leading-relaxed text-base">
-              Abaris – Reinigung trifft Seele.
+              „Sauberkeit ist für mich mehr als Routine – sie ist eine Form von Respekt."
             </p>
           </div>
         </div>
