@@ -31,7 +31,7 @@ function Services() {
     },
     {
       title: 'Abaris Hygiene Plus',
-      description: 'In Zeiten erhöhter Hygieneanforderungen ist unser Service wichtiger denn je. Viele Reinigungsmittel haben nur einen geringen Effekt gegen Viren und Bakterien, oder werden falsch angewendet.\n\nZum Beispiel muss die Dosierung von Reinigungsmitteln exakt ermittelt werden, damit sie wirken. Ein Zuviel kann den Oberflächen, der Haut oder den Atemwegen sogar schaden.\n\nAbaris Reinigungsservice ist soviel mehr als nur ein Gebäudereiniger, wir sind ein Reinigungsservice, der seinen Kunden Zeit widmet.'
+      description: 'Abaris Hygiene Plus: Ihr einfacher Weg zu einem rundum hygienischen Büro. Wir liefern regelmäßig alle wichtigen Hygieneartikel – von Toilettenpapier bis Handseife – direkt in Ihr Büro. So bleibt Ihr Arbeitsplatz immer frisch, sauber und komfortabel.'
     },
     {
       title: 'Abaris Aqua Service',
