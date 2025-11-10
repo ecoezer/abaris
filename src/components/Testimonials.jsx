@@ -3,9 +3,9 @@ import React from 'react'
 function Testimonials() {
   const testimonials = [
     {
-      name: 'Dr. Schmidt',
-      company: 'Zahnarztpraxis Schmidt',
-      text: 'Abaris hat unsere Praxis komplett transformiert. Die Reinigungsqualität ist hervorragend und das Team ist sehr zuverlässig. Wir sind sehr zufrieden!',
+      name: 'Fabi R.',
+      company: 'Büro- und Arbeitsplatzreinigung',
+      text: 'Büro und Lager sind hervorragend gereinigt worden. Vielen herzlichen Dank. Positiv: Ansprechbarkeit, Pünktlichkeit, Qualität, Professionalität, Wert',
       rating: 5
     },
     {
