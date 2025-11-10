@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { database } from '../config/firebase'
+import { ref, push } from 'firebase/database'
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -10,6 +12,8 @@ function Contact() {
   })
   const [termsAccepted, setTermsAccepted] = useState(false)
   const [submitted, setSubmitted] = useState(false)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(null)
 
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
@@ -34,15 +38,46 @@ function Contact() {
     }))
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     if (!isFormValid()) return
-    setSubmitted(true)
-    setTimeout(() => {
+
+    setLoading(true)
+    setError(null)
+
+    try {
+      const contactsRef = ref(database, 'contacts')
+      const newContactRef = push(contactsRef)
+
+      await Promise.all([
+        push(contactsRef, {
+          ...formData,
+          timestamp: new Date().toISOString(),
+          id: newContactRef.key
+        }),
+        fetch(`${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-contact-email`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
+          },
+          body: JSON.stringify(formData)
+        })
+      ])
+
+      setSubmitted(true)
       setFormData({ name: '', email: '', phone: '', service: '', message: '' })
       setTermsAccepted(false)
-      setSubmitted(false)
-    }, 3000)
+
+      setTimeout(() => {
+        setSubmitted(false)
+      }, 3000)
+    } catch (err) {
+      setError(err.message || 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.')
+      console.error('Error:', err)
+    } finally {
+      setLoading(false)
+    }
   }
 
   return (
@@ -124,6 +159,12 @@ function Contact() {
           {/* Contact Form */}
           <div className="bg-gray-50 p-8 md:p-10 rounded-lg border border-gray-100 md:order-2 md:col-span-2">
             <h3 className="text-2xl font-light text-gray-900 mb-6">Kontaktformular</h3>
+
+            {error && (
+              <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-4">
+                <p className="text-red-700 font-light text-sm">{error}</p>
+              </div>
+            )}
 
             {submitted ? (
               <div className="bg-abaris-cyan bg-opacity-10 border border-abaris-cyan rounded-lg p-6 text-center">
@@ -231,14 +272,14 @@ function Contact() {
 
                 <button
                   type="submit"
-                  disabled={!isFormValid()}
+                  disabled={!isFormValid() || loading}
                   className={`w-full font-light py-3 rounded-lg transition-all duration-300 transform ${
-                    isFormValid()
+                    isFormValid() && !loading
                       ? 'bg-abaris-cyan text-white hover:bg-opacity-90 hover:scale-105 cursor-pointer'
                       : 'bg-gray-300 text-gray-500 cursor-not-allowed'
                   }`}
                 >
-                  Nachricht senden
+                  {loading ? 'Wird gesendet...' : 'Nachricht senden'}
                 </button>
               </form>
             )}
