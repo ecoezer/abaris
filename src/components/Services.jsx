@@ -6,7 +6,7 @@ function Services() {
 
   const services = [
     {
-      title: 'Abaris Cicero Service - Büroreinigung',
+      title: 'Abaris Pro Service',
       description: 'Wo Raum und Seele im Gleichklang sind\nUnsere Umgebung hat einen starken Einfluss auf unsere Stimmung und Leistungsfähigkeit.\nEin sauberer, gepflegter Raum schafft Ruhe, Klarheit und positive Energie.\nGerade im Büro, wo wir oft mehr Zeit verbringen als zu Hause, ist eine saubere Umgebung der Schlüssel für konzentriertes und harmonisches Arbeiten.\nEin hygienisches und ordentliches Büro fördert nicht nur die Produktivität, sondern auch das innere Gleichgewicht.\nDenn Sauberkeit bedeutet mehr als Ordnung – sie schenkt Leichtigkeit für Körper, Geist und Seele. Wo Raum und Seele im Gleichklang sind.'
     },
     {
