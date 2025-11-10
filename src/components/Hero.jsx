@@ -35,8 +35,8 @@ function Hero() {
                   <div className="text-xl sm:text-3xl md:text-3xl lg:text-[46px] tracking-[0.3em] mt-1 font-bold font-helvetica">DÜSSELDORF</div>
                 </h1>
 
-                <p className="text-white text-sm sm:text-base md:text-lg mb-3 md:mb-4 lg:mb-2 font-light">
-                  Abaris steht für Perfektion bis ins Detail –<br />für Sauberkeit, die Vertrauen schafft<br />und Eleganz, die bleibt.
+                <p className="text-white text-sm sm:text-base md:text-lg lg:whitespace-nowrap mb-3 md:mb-4 lg:mb-2 font-light">
+                  Abaris steht für Perfektion bis ins Detail –<br className="lg:hidden" /><span className="hidden lg:inline"> </span>für Sauberkeit, die Vertrauen schafft<br className="lg:hidden" /><span className="hidden lg:inline"> </span>und Eleganz, die bleibt.
                 </p>
               </div>
 
