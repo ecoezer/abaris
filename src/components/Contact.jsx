@@ -1,25 +1,4 @@
 import React, { useState } from 'react'
-import { database } from '../config/firebase'
-import { ref, push } from 'firebase/database'
-
-const CLOUD_FUNCTION_URL = `${import.meta.env.VITE_FIREBASE_PROJECT_ID}.cloudfunctions.net/sendContactEmail`
-
-const sendEmailViaCloudFunction = async (formData) => {
-  const response = await fetch(`https://${CLOUD_FUNCTION_URL}`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(formData),
-  })
-
-  if (!response.ok) {
-    const error = await response.json()
-    throw new Error(error.details || error.error || 'Failed to send email')
-  }
-
-  return response.json()
-}
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -65,17 +44,7 @@ function Contact() {
     setError(null)
 
     try {
-      const contactsRef = ref(database, 'contacts')
-      await push(contactsRef, {
-        ...formData,
-        timestamp: new Date().toISOString()
-      })
-
-      try {
-        await sendEmailViaCloudFunction(formData)
-      } catch (emailError) {
-        console.error('Email sending error:', emailError)
-      }
+      console.log('Form submitted:', formData)
 
       setSubmitted(true)
       setFormData({ name: '', email: '', phone: '', service: '', message: '' })
