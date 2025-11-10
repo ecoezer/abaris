@@ -15,7 +15,7 @@ function Services() {
     },
     {
       title: 'Abaris Hypatia Service - Praxisreinigung',
-      description: 'Die hygienischen Qualitätsstandards im Gesundheitswesen erfordern ein Maximum an Fachwissen und Sorgfalt. Krankheitserreger stellen ein ständiges Risiko dar – Professionalität und Erfahrung zeichnen uns in diesem Bereich aus.\n\nFür uns spielen hierbei die Gründlichkeit und hygienische Sauberkeit eine große Rolle Dies garantieren wir durch unsere professionell geschulten und erfahrenen MitarbeiterInnen.\n\nBei der Reinigung der Räumlichkeiten richten wir uns selbstverständlich nach Ihren Wünschen und Vorgaben.'
+      description: 'Hygiene trifft Gesundheit\nSauberkeit ist Vertrauen.\nUnser Abaris-Team sorgt für hygienische Reinheit in Arztpraxen, Therapie- und Behandlungsräumen – mit höchster Sorgfalt und Diskretion.\nWir reinigen nicht nur Oberflächen, sondern schaffen ein Umfeld, das Ruhe, Schutz und Wohlbefinden vermittelt.\nDenn Sauberkeit ist die Grundlage jeder Heilung – für Körper, Geist und Raum.'
     },
     {
       title: 'Abaris Pro Service',
