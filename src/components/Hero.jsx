@@ -28,7 +28,11 @@ function Hero() {
                     Abar
                     <span className="relative inline-block">
                       ı
-                      <img src="/star copy.png" alt="star" className="absolute hidden md:block lg:block" style={{ top: '-5%', left: '50%', transform: 'translateX(-50%)', width: '350px', height: 'auto' }} />
+                      <svg className="absolute hidden md:block lg:block" style={{ top: '-5%', left: '50%', transform: 'translateX(-50%)', width: '350px', height: 'auto' }} viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="45" fill="none" stroke="white" strokeWidth="2" />
+                        <circle cx="50" cy="50" r="8" fill="white" />
+                        <path d="M 50 10 L 55 35 L 85 35 L 65 55 L 70 80 L 50 60 L 30 80 L 35 55 L 15 35 L 45 35 Z" fill="white" />
+                      </svg>
                     </span>
                     s
                   </div>
