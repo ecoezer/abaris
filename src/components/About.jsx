@@ -18,24 +18,24 @@ function About() {
           </div>
 
           <div className="w-full">
-            <p className="text-gray-900 font-light text-lg md:text-xl leading-relaxed mb-8">
-              Langjährige Erfahrung zahlt sich aus. Auf mich und mein Team ist Verlass, dass garantiere ich Ihnen!
+            <h2 className="text-gray-900 font-light text-lg md:text-xl leading-relaxed mb-8">
+              Abaris Reinigungsservice – Sauberkeit, die Energie schenkt
+            </h2>
+
+            <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
+              Bei Abaris Reinigungsservice sind wir überzeugt: Ein sauberer Raum verändert nicht nur die Atmosphäre, sondern auch den Menschen selbst.
             </p>
 
             <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
-              Der Name meines Reinigungsservice leitet sich aus dem griechischen „Abaris Hyperdoros", zu Deutsch „Abaris Hyperboreer" ab. Dieser war laut Überlieferung um das 7. oder 6. Jahrhundert vor Christus ein legendärer Heiler und Reinigungspriester sowie ein großer Verehrer des Gottes Apollon.
+              Unsere Leistungen gehen über klassische Reinigung hinaus – wir schaffen Hygiene, Leichtigkeit und ein Gefühl von Klarheit. Echte Sauberkeit bringt Motivation, Lebensfreude und fördert die innere Balance.
             </p>
 
             <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
-              Die zufällige Anlehnung meines Namens, A(yseqül) Baris an den Namen des mythologischen Wunderheilers und Reinigers inspirierte mich dazu, meinen Reinigungsservice in Anlehnung an ihn zu benennen.
-            </p>
-
-            <p className="text-gray-700 font-light mb-6 leading-relaxed text-base">
-              Ich kann zwar nicht heilen, doch können Sie mich gerne mit der Reinigung Ihrer Büros, Praxen, Ladenlokale, Kitas etc. beauftragen.
+              Ruhe kehrt dort ein, wo äußere und innere Ordnung harmonieren. Denn die Reinheit unserer Umgebung beeinflusst maßgeblich das Wohlbefinden unserer Seele.
             </p>
 
             <p className="text-gray-700 font-light leading-relaxed text-base">
-              Ich habe Jahre für ein internationales Unternehmen im Bereich BIO-Cotton-Produkte wie Textilien gearbeitet und war dabei für die Organisation und Präsentation von Messen verantwortlich. Dabei legte ich besonderes Augenmerk auf Sorgfalt und Qualität in jeglicher Hinsicht.
+              Abaris – Reinigung trifft Seele.
             </p>
           </div>
         </div>
