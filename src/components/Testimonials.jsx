@@ -43,7 +43,7 @@ function Testimonials() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-white p-6 md:p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <div key={index} className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
               <div className="flex items-center mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <svg key={i} className="w-5 h-5 text-abaris-cyan fill-current" viewBox="0 0 20 20">
@@ -51,14 +51,14 @@ function Testimonials() {
                   </svg>
                 ))}
               </div>
-              <p className="text-gray-700 font-light mb-6 text-sm md:text-base leading-relaxed">
+              <p className="text-gray-700 font-light mb-6 text-base leading-relaxed flex-grow">
                 "{testimonial.text}"
               </p>
               <div className="border-t border-gray-100 pt-4">
-                <p className="font-light text-gray-900 text-sm">
+                <p className="font-light text-gray-900 text-base">
                   {testimonial.name}
                 </p>
-                <p className="text-gray-500 font-light text-xs md:text-sm">
+                <p className="text-gray-500 font-light text-sm">
                   {testimonial.company}
                 </p>
               </div>
